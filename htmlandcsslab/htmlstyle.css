@@ -1,0 +1,117 @@
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid white;
+    padding: 10px;
+    max-width: 960px;
+}
+
+
+
+body {
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+#csdmlogo{
+    max-width: 240px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+
+}
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+
+
+
+
+
+#banner{
+    max-width: 960px;
+
+}
+
+#chrisinajayne{
+    max-width: 240px;
+}
+
+
+#section2{
+
+}
+
+
+
+
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#newsboxtop{
+
+    background-color: #DBC9DF;
+}
+
+#newsboxbottom{
+
+    background-color: #782A7E;
+}
+
+#footer{
+
+    background-color: #363636;
+}
+
+
+
+
+.section2{
+    background-color: white;
+    width:33%;
+    float: left;
+}
+
+.section3{
+    background-color: white;
+    width:33%;
+    display: inline-block;
+}
+
+.section4{
+    background-color: white;
+    width:33%;
+    float: right;
+}
+
+#footer{
+    height: 125px;
+}
