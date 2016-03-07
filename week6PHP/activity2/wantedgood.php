@@ -28,14 +28,27 @@ $sausagerolls = "sausagerolls";
 
 switch($_POST['userinput']){
 
-case 'specs':
-case 'Specs':
-case 'SPECS':
-echo "You have to be 18 to buy mugs";
-break;
+    case 'specs':
+    case 'Specs':
+    case 'SPECS':
+    echo "You have to be 18 to buy Specs";
+    break;
 
-default:
-echo "Wrong Value";
+    case 'mugs':
+    case 'Mugs':
+    case 'MUGS':
+    echo "You have to be 18 to buy Mugs";
+    break;
+
+    case 'sausage rolls':
+    case 'Sausage rolls':
+    case 'SAUSAGE ROLLS':
+        echo "You have to be 18 to buy Mugs";
+        break;
+
+    default:
+    echo "Wrong Value";
+
 }
 
 
