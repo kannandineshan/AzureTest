@@ -3,12 +3,12 @@
 <head>
 </head>
 <body>
-<p>
+
 
 
 
     <?php
-    echo "Hello World" ."       ";
+    echo "Hello World" ."";
     ?>
 
     <?php
@@ -28,6 +28,6 @@
 
 
 
-</p>
+
 </body>
 </html>
