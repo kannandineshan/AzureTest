@@ -26,7 +26,7 @@ $sausagerolls = "sausagerolls";
 
 
 
-    echo $_POST['value'];
+    echo $_POST['userinput'];
 
 
 
