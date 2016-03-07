@@ -26,12 +26,7 @@ $sausagerolls = "sausagerolls";
 
 
 
-    echo $_POST['userinput'];
-
-
-
-
-switch(userinput){
+switch($_POST['userinput']){
 
 case 'specs':
 case 'Specs':
