@@ -28,6 +28,12 @@ $sausagerolls = "sausagerolls";
 
 
 
+
+
+?>
+
+
+
 switch(userinput){
 
 case 'specs':
@@ -39,9 +45,6 @@ break;
 default:
 echo "Wrong Value";
 }
-
-?>
-
 
 
 
