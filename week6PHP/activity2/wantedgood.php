@@ -11,6 +11,15 @@
 
 <p>
 
+
+
+    <form action="welcome.php" method="post">
+         Enter object name: <input type="text" name="name"><br>
+         <input type="submit">
+    </form>
+
+
+
     <?php
 
     $specs = "specs";
@@ -31,10 +40,7 @@
 
 </p>
 
-<form action="welcome.php" method="post">
-    Enter object name: <input type="text" name="name"><br>
-    <input type="submit">
-</form>
+
 
 
 
