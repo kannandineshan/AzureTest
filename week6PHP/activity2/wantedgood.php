@@ -26,11 +26,8 @@ $sausagerolls = "sausagerolls";
 
 
 
+    echo $_POST['value'];
 
-
-
-
-?>
 
 
 
@@ -45,6 +42,10 @@ break;
 default:
 echo "Wrong Value";
 }
+
+
+?>
+
 
 
 
