@@ -24,7 +24,7 @@ $specs = "specs";
 $mugs = "mugs";
 $sausagerolls = "sausagerolls";
 
-?>
+
 
 
 
@@ -40,7 +40,7 @@ default:
 echo "Wrong Value";
 }
 
-
+?>
 
 
 
