@@ -14,15 +14,13 @@
 
 
     <form action="" method="post">
-         Enter object name: <input type="text" name="userinput"><br>
+        <label for="userinput"> Enter object name:</label>
+        <input type="text" name="userinput"><br>
          <input type="submit">
     </form>
 
 <?php
 
-$specs = "specs";
-$mugs = "mugs";
-$sausagerolls = "sausagerolls";
 
 
 
