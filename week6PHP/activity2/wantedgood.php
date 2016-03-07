@@ -47,6 +47,7 @@ switch($_POST['userinput']){
         break;
 
     default:
+        if($_POST['userinput']== null)
     echo "Wrong Value";
 
 }
