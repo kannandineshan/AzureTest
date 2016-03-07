@@ -33,6 +33,9 @@
         case 'SPECS':
             echo "You have to be 18 to buy mugs";
             break;
+
+        default:
+            echo "Wrong Value";
     }
 
 
