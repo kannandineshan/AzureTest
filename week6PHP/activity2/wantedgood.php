@@ -13,7 +13,7 @@
 
 
 
-    <form action="welcome.php" method="post">
+    <form action="" method="post">
          Enter object name: <input type="text" name="userinput"><br>
          <input type="submit">
     </form>
