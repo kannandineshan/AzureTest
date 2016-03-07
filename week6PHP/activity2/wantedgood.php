@@ -14,7 +14,7 @@
 
 
     <form action="" method="post">
-         Enter object name: <input type="text" name="userinput" value="Enter object name"><br>
+         Enter object name: <input type="text" name="userinput"><br>
          <input type="submit">
     </form>
 
