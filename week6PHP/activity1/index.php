@@ -6,7 +6,7 @@
 
 
 
-
+<p>
     <?php
     echo "Hello World" ."";
     ?>
@@ -24,7 +24,7 @@
                 echo "Who are you ?";
             }
     ?>
-
+</p>
 
 
 
