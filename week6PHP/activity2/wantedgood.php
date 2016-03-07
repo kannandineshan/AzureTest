@@ -11,20 +11,20 @@
 
 <p>
 
-    <?php
 
-    $specs = "specs";
-    $mugs = "mugs";
-    $sausagerolls = "sausagerolls";
-
-    ?>
 
     <form action="welcome.php" method="post">
          Enter object name: <input type="text" name="userinput"><br>
          <input type="submit">
     </form>
 
+<?php
 
+$specs = "specs";
+$mugs = "mugs";
+$sausagerolls = "sausagerolls";
+
+?>
 
 
 
