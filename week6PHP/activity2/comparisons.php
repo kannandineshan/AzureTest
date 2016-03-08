@@ -31,22 +31,22 @@
     if($myage >= 21) {
 
 
-        echo $myname."buy sausage rolls if you are over 21";
+        echo $myname.""."buy sausage rolls if you are over 21";
 
     }
 
     elseif($myage>=18){
 
-        echo $myname."buy mugs if you are over 18,";
+        echo $myname.""."buy mugs if you are over 18,";
     }
 
     elseif($myage>=16){
 
-        echo $myname."buy specs if you are over 16,";
+        echo $myname.""."buy specs if you are over 16,";
     }
 
     else{
-        echo "you are under age";
+        echo $myname.""."you are under age";
     }
 
 
