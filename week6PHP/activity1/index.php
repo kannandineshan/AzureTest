@@ -12,8 +12,8 @@
     ?>
 
     <?php
-    $myname = "dinesh";
-    $strangername = paul;
+    $myname;
+
 
         if($myname == "dinesh") {
 
