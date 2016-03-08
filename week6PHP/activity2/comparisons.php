@@ -15,6 +15,7 @@
             <input type="text" name="name">
             <label for="age">Age:</label>
             <input type="number" name="age">
+            <input type="submit">
 
     </form>
 
