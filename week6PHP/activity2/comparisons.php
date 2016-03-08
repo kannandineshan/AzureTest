@@ -28,20 +28,25 @@
         $myage = $_POST['age'];
 
 
+    if($myage >= 21) {
 
-    if($myage >= 16) {
 
-        echo "buy specs if you are over 16,";
+        echo $myname."buy sausage rolls if you are over 21";
+
     }
 
     elseif($myage>=18){
 
-        echo "buy mugs if you are over 18,";
+        echo $myname."buy mugs if you are over 18,";
     }
 
-    elseif($myage>=21){
+    elseif($myage>=16){
 
-        echo "buy sausage rolls if you are over 21";
+        echo $myname."buy specs if you are over 16,";
+    }
+
+    else{
+        echo "you are under age";
     }
 
 
