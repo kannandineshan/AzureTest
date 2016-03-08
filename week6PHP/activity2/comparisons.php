@@ -9,7 +9,7 @@
 
 <p>
 
-    <form>
+    <form action="" method="post">
 
             <label for="name">Name:</label>
             <input type="text" name="name">
@@ -24,31 +24,25 @@
     <?php
 
 
-        $myname = name;
-        $myage = age;
+        $myname = $_POST['name'];
+        $myage = $_POST['age'];
+
+
+
     if($myage >= 16) {
 
         echo "buy specs if you are over 16,";
     }
 
-    else {
-        echo "Who are you ?";
+    elseif($myage>=18){
+
+        echo "buy mugs if you are over 18,";
     }
 
+    elseif($myage>=21){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        echo "buy sausage rolls if you are over 21";
+    }
 
 
     ?>
