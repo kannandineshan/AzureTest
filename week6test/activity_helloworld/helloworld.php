@@ -37,7 +37,10 @@ echo "Name: ".$myname."<br>"."Student ID: ".$myid."<br>";
 $name = $_POST['name'];
 $id = $_POST['id'];
 
-if ($name==dinesh & $id==1510215){
+if($name==null & $id==null){
+}
+
+elseif ($name==dinesh & $id==1510215){
 echo "<br>"."Hello Dinesh !!!";
 }
 
@@ -45,8 +48,7 @@ elseif($name != dinesh | $id != 1510215){
 print "<br>"."Get the F out of here ??!!";
 }
 
-elseif($name==null | $id==null){
-}
+
 
 ?>
 
