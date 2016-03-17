@@ -17,12 +17,29 @@ echo "hello," ." ". "world" ."!";
 
 echo "<br>";
 
-$myname= dinesh;
+$myname= Dinesh;
 $myid = 15101215;
 
 echo "Name: ".$myname."<br>"."Student ID: ".$myid;
 
+
+$name = $_POST['name'];
+
+if ($name==dinesh){
+    echo "Hello Dinesh !!!";
+}
+else{
+    echo "Get the F out of here ??!!";
+}
 ?>
+
+<form action="helloworld.php" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" required><br>
+    <label for="id">Student ID:</label><br>
+    <input type="number" name="id" required><br>
+    <input type="submit" value="SUBMIT"><br>
+</form>
 
 </p>
 
