@@ -9,7 +9,7 @@
 <body>
 
 
-<form>
+<form action="comparisons.php" method="post">
     <label for="name">Name:</label><br>
     <input type="text" name="name"><br>
     <label for="age">Age:</label><br>
