@@ -15,6 +15,11 @@ echo "<br>";
 
 echo "hello," ." ". "world" ."!";
 
+$myname= dinesh;
+$myid = 15101215;
+
+echo "Name: ".$myname."<br>"."Student ID: ".$myid;
+
 ?>
 
 </p>
