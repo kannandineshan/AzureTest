@@ -22,7 +22,12 @@
 $name=$_POST['name'];
 $age=$_POST['age'];
 
-if($age>=21) {
+
+if($name==null & $age==null){
+
+}
+
+elseif($age>=21) {
     echo $name . "<br>" . "You are allowed to buy sausage rolls"."<br>";
 }
 
