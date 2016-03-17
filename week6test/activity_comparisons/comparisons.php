@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<header></header>
+
+
+
+
+
+<body>
+
+
+<form>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name"><br>
+    <label for="age">Age:</label><br>
+    <input type="number" name="age"><br>
+    <input type="submit"><br>
+</form>
+
+<?php
+
+$name=$_POST['name'];
+$age=$_POST['age'];
+
+if($age>=21) {
+    echo $name . "<br>" . "You are allowed to buy sausage rolls";
+}
+
+elseif($age>=18) {
+    echo $name . "<br>" . "You are allowed to buy mugs";
+}
+
+if($age>=16) {
+    echo $name . "<br>" . "You are allowed to buy specs";
+}
+
+?>
+
+
+
+</body>
+
+</html>
+
+
+
