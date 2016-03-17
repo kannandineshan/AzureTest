@@ -43,7 +43,7 @@ switch($wantedgood){
     case 'sausage rolls':
     case 'Sausage rolls':
     case 'SAUSAGE ROLLS':
-        echo "<br>"."You have to be 18 or over to buy Sausage Rolls";
+        echo "<br>"."You have to be 21 or over to buy Sausage Rolls";
         break;
 }
 
