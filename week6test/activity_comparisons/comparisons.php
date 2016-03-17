@@ -30,7 +30,7 @@ elseif($age>=18) {
     echo $name . "<br>" . "You are allowed to buy mugs". "<br>";
 }
 
-if($age>=16) {
+elseif($age>=16) {
     echo $name . "<br>" . "You are allowed to buy specs". "<br>";
 }
 
