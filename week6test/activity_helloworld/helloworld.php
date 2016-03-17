@@ -35,14 +35,19 @@ echo "Name: ".$myname."<br>"."Student ID: ".$myid."<br>";
 
 <?php
 $name = $_POST['name'];
+$id = $_POST['id'];
 
-if ($name==dinesh){
+if ($name==dinesh && $id==1510215){
 echo "<br>"."Hello Dinesh !!!";
 }
 
-elseif($name != dinesh){
+elseif($name != dinesh && $id != 1510215){
 print "<br>"."Get the F out of here ??!!";
 }
+
+elseif($name==null & $id==null){
+}
+
 ?>
 
 </p>
