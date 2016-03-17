@@ -40,7 +40,7 @@ elseif($age>=16) {
 }
 
 else{
-    echo $name.""."you are under age";
+    echo $name. "<br>" .""."you are under age". "<br>";
 }
 
 ?>
