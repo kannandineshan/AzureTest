@@ -41,11 +41,11 @@ if ($name==dinesh && $id==1510215){
 echo "<br>"."Hello Dinesh !!!";
 }
 
-elseif($name != dinesh && $id != 1510215){
+elseif($name != dinesh & $id != 1510215){
 print "<br>"."Get the F out of here ??!!";
 }
 
-elseif($name==null & $id==null){
+elseif($name==null && $id==null){
 }
 
 ?>
