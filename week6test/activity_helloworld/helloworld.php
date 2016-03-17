@@ -20,7 +20,7 @@ echo "<br>";
 $myname= Dinesh;
 $myid = 15101215;
 
-echo "Name: ".$myname."<br>"."Student ID: ".$myid;
+echo "Name: ".$myname."<br>"."Student ID: ".$myid."<br>";
 
 
 $name = $_POST['name'];
