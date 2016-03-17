@@ -29,7 +29,7 @@ if ($name==dinesh){
     echo "Hello Dinesh !!!";
 }
 else{
-    echo "Get the F out of here ??!!";
+    print "Get the F out of here ??!!";
 }
 ?>
 
