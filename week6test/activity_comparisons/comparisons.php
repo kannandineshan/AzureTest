@@ -34,6 +34,10 @@ if($age>=16) {
     echo $name . "<br>" . "You are allowed to buy specs". "<br>";
 }
 
+else{
+    echo $name.""."you are under age";
+}
+
 ?>
 
 
