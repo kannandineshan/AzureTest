@@ -23,15 +23,15 @@ $name=$_POST['name'];
 $age=$_POST['age'];
 
 if($age>21) {
-    echo $name . "<br>" . "You are allowed to buy sausage rolls";
+    echo $name . "<br>" . "You are allowed to buy sausage rolls"."<br>";
 }
 
 elseif($age>18) {
-    echo $name . "<br>" . "You are allowed to buy mugs";
+    echo $name . "<br>" . "You are allowed to buy mugs". "<br>";
 }
 
 if($age>16) {
-    echo $name . "<br>" . "You are allowed to buy specs";
+    echo $name . "<br>" . "You are allowed to buy specs". "<br>";
 }
 
 ?>
