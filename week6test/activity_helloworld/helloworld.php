@@ -37,10 +37,10 @@ echo "Name: ".$myname."<br>"."Student ID: ".$myid."<br>";
 $name = $_POST['name'];
 
 if ($name==dinesh){
-echo "Hello Dinesh !!!";
+echo "<br>"."Hello Dinesh !!!";
 }
 else{
-print "Get the F out of here ??!!";
+print "<br>"."Get the F out of here ??!!";
 }
 ?>
 
