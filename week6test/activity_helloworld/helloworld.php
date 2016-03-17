@@ -39,7 +39,10 @@ $name = $_POST['name'];
 if ($name==dinesh){
 echo "<br>"."Hello Dinesh !!!";
 }
-else{
+elseif($name==null){
+}
+
+elseif($name != dinesh){
 print "<br>"."Get the F out of here ??!!";
 }
 ?>
