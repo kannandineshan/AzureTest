@@ -22,15 +22,6 @@ $myid = 15101215;
 
 echo "Name: ".$myname."<br>"."Student ID: ".$myid."<br>";
 
-
-$name = $_POST['name'];
-
-if ($name==dinesh){
-    echo "Hello Dinesh !!!";
-}
-else{
-    print "Get the F out of here ??!!";
-}
 ?>
 
 <form action="helloworld.php" method="post">
@@ -41,7 +32,20 @@ else{
     <input type="submit" value="SUBMIT"><br>
 </form>
 
+
+<?php
+$name = $_POST['name'];
+
+if ($name==dinesh){
+echo "Hello Dinesh !!!";
+}
+else{
+print "Get the F out of here ??!!";
+}
+?>
+
 </p>
+
 
 </body>
 
