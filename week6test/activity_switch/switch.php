@@ -5,24 +5,11 @@
 <body>
 
 
-
-
-
-
-
-
-
 <form action="switch.php" method="post">
     <label for="good">Enter Wanted Good:</label>
     <input type="text" name="good">
     <input type="submit">
 </form>
-
-
-
-
-
-
 
 
 <?php
@@ -46,10 +33,7 @@ switch($wantedgood){
         echo "<br>"."You have to be 21 or over to buy Sausage Rolls";
         break;
 }
-
-
 ?>
-
 
 </body>
 </html>
