@@ -20,14 +20,12 @@ $myArray = array("specs", "mugs", "sausage rolls");
 echo "<h1>Original Array</h1>";
 printmyArray($myArray);
 
-$myArray[1] = "hugs"; // modifies position 1 (re)
-
 echo "<h1>Swap in Hugs</h1>";
+$myArray[1] = "hugs"; // modifies position 1 (re)
 printmyArray($myArray);
 
-unset($myArray[2]); // removes the array in position 2
-
 echo "<h1>Take out Sausage Rolls</h1>";
+unset($myArray[2]); // removes the array in position 2
 printmyArray($myArray);
 
 
