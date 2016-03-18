@@ -9,14 +9,13 @@
 <?php
 
 
-$myarray=array("dinesh","kannan","push");
-
-unset($array[1]);
-
-echo $myarray[1];
+$provisionedActivities = array("Specs","Drugs","Rock and Roll");
 
 
+foreach($provisionedActivities as $x){
 
+    print "<p>$x</p>";
+}
 
 
 ?>
