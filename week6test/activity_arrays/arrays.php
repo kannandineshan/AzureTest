@@ -17,7 +17,8 @@ foreach($provisionedActivities as $x){
     print "<p>$x</p>";
 }
 
-
+$provisionedActivities[1]= "hugs";
+unset($provisionedActivities[2]);
 
 
 ?>
