@@ -11,6 +11,8 @@
 
 $myarray=array("dinesh","kannan","push");
 
+unset($myarray[1]);
+
 echo $myarray[1];
 
 
