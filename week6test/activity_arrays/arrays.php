@@ -9,13 +9,15 @@
 <?php
 
 
-$provisionedActivities = array("Specs","Drugs","Rock and Roll");
+$provisionedActivities = array("Specs","Mugs","Sausage rolls");
 
 
 foreach($provisionedActivities as $x){
 
     print "<p>$x</p>";
 }
+
+
 
 
 ?>
