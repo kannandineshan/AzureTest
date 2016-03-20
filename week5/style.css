@@ -4,16 +4,27 @@ body {
 
 main {
     max-width: 960px;
+    height: 500px;
     margin-right: auto;
     margin-left: auto;
     background-color: aliceblue;
-    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.container{
+
+    width: 100px;
+    height: 125px;
+    position: absolute;
 }
 
 #cont1 {
-    background-color: gold;
+
+    background: #ccc;
 
 }
+
 #cont2 {
     background-color: silver;
 
@@ -21,4 +32,12 @@ main {
 
 #cont3 {
     background-color: saddlebrown;
+
 }
+
+
+
+
+
+
+
