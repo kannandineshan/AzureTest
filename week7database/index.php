@@ -20,7 +20,13 @@
 <br><br>
 <input type="button" name="button" value ="login" );"/>
 
-    <script src="post.js"></script>
+    <script>$('#button').on('click', function(){
+            $.post('week7database/login.php', {'post': value}, function(data){
+                if(data !== 0) {
+
+                }
+            }, "json");
+        });</script>
 
 <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
