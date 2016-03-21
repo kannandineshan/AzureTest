@@ -10,7 +10,7 @@
             $("button").click(function(){
                 $.post("demo_test_post.asp",
                     {
-                        name: "Donald Duck",
+                        name: "#name",
 
                     },
                     function(data,status){

@@ -8,7 +8,7 @@ if (empty($_POST["username"]) || empty($_POST["password"]))
     echo "Both fields are required.";
 } else
 {
-    $username = $_POST['username'];
+    $username = $_POST['name'];
     $password = $_POST['password'];
 
 
