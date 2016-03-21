@@ -20,38 +20,38 @@
 <br><br>
 <input type="button" id="button" value="submit"/>
 
-    <script>
-        $(document).ready(
-            function(){
-
-
-
-                $('#button').click( function(){
-
-                    $.post("login.php", {
-                        username : $('#name').val()
-
-                    }
-
-
-                });
-
-
-
-
-
-
-            }
-
-
-
-
-        );
-    </script>
 
 <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
 
 
+<script>
+    $(document).ready(
+        function(){
+
+
+
+            $('#button').click( function(){
+
+                $.post("login.php", {
+                    username : $('#name').val()
+
+                }
+
+
+            });
+
+
+
+
+
+
+        }
+
+
+
+
+    );
+</script>
 </body>
 </html>
