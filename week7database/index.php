@@ -28,8 +28,8 @@
 
                 $('#button').click( function(){
 
-                    $.post("login.php", {},
-                              function(data)){
+                    $.post("login.php", {
+                        username : $('#name').val()
 
                     }
 
