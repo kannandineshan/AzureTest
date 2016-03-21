@@ -11,6 +11,7 @@
                 $.post("demo_test_post.asp",
                     {
                         name: "#name",
+                        password: "#password"
 
                     },
                     function(data,status){
