@@ -13,14 +13,18 @@
 
 <label>Username:</label>
 <br>
-<input type="text" name="username" placeholder="username"/>
+<input id="name" type="text" name="username" placeholder="username"/>
 <br><br>
 <label>Password:</label><br>
-<input type="password" name="password" placeholder="password"/>
+<input  id="password" type="password" name="password" placeholder="password"/>
 <br><br>
-<input type="button" name="button" value ="login" onkeypress="$.post( "login.php" );"/>
+<input type="button" name="button" value ="login" );"/>
+
+    <script src="post.js"></script>
 
 <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
+
+
 </body>
 </html>

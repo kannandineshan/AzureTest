@@ -1,1 +1,1 @@
-$.post( "test.php" );
+$.post( "login.php", $( "#name" ).serialize() );
