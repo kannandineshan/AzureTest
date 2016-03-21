@@ -21,7 +21,7 @@
 <button name="button" value="submit"></button>
 
     <script>$('#button').on('click', function(){
-            $.post('week7database/login.php', {'post': value}, function(data){
+            $.post('login.php', {'post': value}, function(data){
                 if(data !== 0) {
 
                 }
