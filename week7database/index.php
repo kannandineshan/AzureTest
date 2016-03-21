@@ -18,7 +18,7 @@
 <label>Password:</label><br>
 <input  id="password" type="password" name="password" placeholder="password"/>
 <br><br>
-<input type="button" name="button" value ="login" );"/>
+<button name="button" value="submit"></button>
 
     <script>$('#button').on('click', function(){
             $.post('week7database/login.php', {'post': value}, function(data){
