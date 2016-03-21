@@ -18,15 +18,36 @@
 <label>Password:</label><br>
 <input  id="password" type="password" name="password" placeholder="password"/>
 <br><br>
-<button name="button" value="submit"></button>
+<input type="button" id="button" value="submit"/>
 
-    <script>$('#button').on('click', function(){
-            $.post('login.php', {'post': value}, function(data){
-                if(data !== 0) {
+    <script>
+        $(document).ready(
+            function(){
 
-                }
-            }, "json");
-        });</script>
+
+
+                $('#button').click( function(){
+
+                    $.post("login.php", {},
+                              function(data)){
+
+                    }
+
+
+                });
+
+
+
+
+
+
+            }
+
+
+
+
+        );
+    </script>
 
 <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
