@@ -11,10 +11,8 @@ $(document).ready(function(){
             type: "POST",
             url: "login.php",
             data: null,
-            cache: false,
-            success: function (result) {
-                alert(result);
-            }
+            cache: false
+
         });
 
     });
