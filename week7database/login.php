@@ -8,11 +8,11 @@ if (empty($_POST["username"]) || empty($_POST["password"]))
     echo "Both fields are required.";
 } else
 {
-    $username = $_POST['username'];
+    $username = $_POST['use'];
     $password = $_POST['password'];
 
 
-    $sql = "SELECT uid FROM users WHERE username='$username' and password='$password'";
+    $sql = "SELECT uid FROM users WHERE use='$username' and password='$password'";
 
 
     $result = mysqli_query($db,$sql);
