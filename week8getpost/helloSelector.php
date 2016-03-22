@@ -6,7 +6,7 @@
 <p>
 
 
-<a href="helloPrinter.php">Earth</a>
+<a href="helloPrinter.php?type=planet">Earth</a>
 
 </p>
 </body>

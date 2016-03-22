@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-<p>
 
 
+    <?php
+$type = $GET_["type"];
+echo "hello". $type;
+?>
 
 
-</p>
-</body>
-</html>
