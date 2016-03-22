@@ -11,7 +11,7 @@
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
-
+<form>
         <label>Username:</label><br>
         <input id="username" type="text" name="username" placeholder="username"
             /><br><br>
@@ -20,7 +20,7 @@
         <br><br>
         <input id="submit" type="button" name="submit" value = "login"/>
     <script src="submitsurvey.js"></script>
-
+</form>
     <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
 </body>
