@@ -18,9 +18,10 @@
         <label>Password:</label><br>
         <input id="password" type="password" name="password" placeholder="password" />
         <br><br>
-    <script src="submitsurvey.js">    <input id="submit" type="button" name="submit" value = "login"/></script>
+        <input id="submit" type="button" name="submit" value = "login"/>
 
 </form>
+    <script src="submitsurvey.js"></script>
     <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
 </body>
