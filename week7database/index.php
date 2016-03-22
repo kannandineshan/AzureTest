@@ -11,15 +11,16 @@
 <div class="loginBox">
     <h3>Login Form</h3>
     <br><br>
-    <form method="post" action="login.php">
+
         <label>Username:</label><br>
-        <input type="text" name="username" placeholder="username"
+        <input id="username" type="text" name="username" placeholder="username"
             /><br><br>
         <label>Password:</label><br>
-        <input type="password" name="password" placeholder="password" />
+        <input id="password" type="password" name="password" placeholder="password" />
         <br><br>
-        <input type="submit" name="submit" value = "login"/>
-    </form>
+        <input id="submit" type="button" name="submit" value = "login"/>
+    <script src="submitsurvey.js"></script>
+
     <div class="error"><?php //echo $error;?><?php //echo $username; echo $password;?></div>
 </div>
 </body>
