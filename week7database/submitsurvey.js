@@ -10,7 +10,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             url: "login.php",
-            data: dataString,
+            data: null,
             cache: false,
             success: function (result) {
                 alert(result);
