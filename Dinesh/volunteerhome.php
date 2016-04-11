@@ -199,7 +199,7 @@ echo $row['question_type'];
             </section>
 
 
-            <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+            <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
             <section class="form" id="welcomepage">
                 <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
                 ?>
