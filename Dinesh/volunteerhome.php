@@ -143,8 +143,11 @@ echo $row['question_type'];
 
     <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <main>
-
-
+        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
+        <section class="w" id="welcomepage">
+            <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
+            ?>
+        </section>
         <!-- (START OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
         <form class="main" id="surveyform" action="submitsurveyanswers.php" method="post" >
 
@@ -205,11 +208,7 @@ echo $row['question_type'];
 
         </form>
 
-        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
-        <section class="w" id="welcomepage">
-            <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
-            ?>
-        </section>
+
         <!-- (END OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 
