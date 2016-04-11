@@ -15,7 +15,7 @@ h2{
 
 #welcomepage{
     background-color: aliceblue;
-    position: absolute;
+
     max-width: 600px;
     height: 500px;
 
@@ -29,7 +29,7 @@ h2{
 
     max-width: 600px;
     height: 500px;
-    position: relative;
+    position: absolute;
     left: 0;
     right: 0;
     margin-left: auto;
