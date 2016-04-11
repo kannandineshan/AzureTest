@@ -2,10 +2,10 @@
 
 	//THIS PAGE IS DESTINATION FOR ADMIN WHEN LOGGED IN AND TRYING TO ACCESS INDEX.PHP, AND WHEN CLICKING LINKS LEADING HERE
 
-	//If no session exists, admin is sent to index.php
+	//If no session exists, admin is sent to login.php
 	session_start();
 	if(!isset($_SESSION['ad_email'])){
-		header("Location: index.php");
+		header("Location: login.php");
 	}
 
 ?>
@@ -51,7 +51,7 @@
 			show_admin_home();
 		}
 		else{
-			header("Location: index.php");
+			header("Location: login.php");
 		}
 	}
 	

@@ -6,10 +6,10 @@
     //important functions are here
     include 'functions.php';
 
-    //without login session, the admin is sent back to index.php
+    //without login session, the admin is sent back to login.php
     session_start();
     if(!isset($_SESSION['ad_email'])){
-        header("Location: index.php");
+        header("Location: login.php");
     }
 
 
