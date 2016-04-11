@@ -16,6 +16,13 @@ h2{
 #welcomepage{
     background-color: aliceblue;
     position: absolute;
+    max-width: 600px;
+    height: 500px;
+
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form{
@@ -23,7 +30,10 @@ h2{
     max-width: 600px;
     height: 500px;
 
-
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #cont1 {
