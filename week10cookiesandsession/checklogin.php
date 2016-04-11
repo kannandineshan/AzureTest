@@ -2,17 +2,12 @@
 
 include ("connection.php"); //Establishing connection with our database
 
-
+$username = $_POST['username'];
+$password = $_POST['password'];
 if (empty($_POST["username"]) || empty($_POST["password"]))
 {
     echo "Both fields are required.";
-} else
-{
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-
-    if ($username = "dinesh"&& $password ="hello" )
+} elseif ($username = "dinesh"&& $password ="hello" )
     {
         setcookie('access_level','standarduser');
         header("location: homepage.php"); // Redirecting To another Page
@@ -26,6 +21,6 @@ if (empty($_POST["username"]) || empty($_POST["password"]))
     {
         echo "Incorrect username or password.";
     }
-}
+
 
 ?>
