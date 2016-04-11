@@ -9,7 +9,7 @@ function displayAccessLevelInformation($access_level) {
         echo "<p>You are currently logged in as a standard user</p>";
     }
     elseif ($access_level == "student") {
-        echo "<p>You are currently logged in as a root user</p>";
+        echo "<p>You are currently logged in as a Student</p>";
         echo "<p>You now have access to additional administrative features</p>";
     }
 }
