@@ -15,7 +15,7 @@ if (empty($_POST["username"]) || empty($_POST["password"]))
     }
     elseif($username = "1510215"&& $password ="hello" )
     {
-        setcookie('student','student');
+        setcookie('access_level','student');
         header("location: homepage"); // Redirecting To another Page
     }
     else
