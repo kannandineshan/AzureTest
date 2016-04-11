@@ -123,7 +123,7 @@ echo $row['question_type'];
 
         <!-- Home Button -->
         <section class="header" id="homebutton">
-            <h2><a href="volunteerhome.html"><input type="button" id="home" value="Home"></a></h2>
+            <h2><a href="volunteerhome.php"><input type="button" id="home" value="Home"></a></h2>
         </section>
 
         <!-- Volunteer name is printed in the head -->

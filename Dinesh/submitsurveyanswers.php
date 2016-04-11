@@ -11,7 +11,7 @@
 
     //if the http method called is "GET"
     if($_SERVER['REQUEST_METHOD']==='GET'){
-        header("Location: volunteerhome.html");	//I'm sending the volunteer straight to volunteerhome.html if the access is "GET"
+        header("Location: volunteerhome.php");	//I'm sending the volunteer straight to volunteerhome.php if the access is "GET"
     }
 
     //if the method called is a "POST"
