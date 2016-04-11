@@ -1,9 +1,27 @@
 header{
-
+    max-width: 600px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2{
     color: darkred;
+}
+
+main{
+    max-width: 600px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 #welcomepage{
