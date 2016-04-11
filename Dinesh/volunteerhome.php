@@ -199,15 +199,17 @@ echo $row['question_type'];
             </section>
 
 
-            <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
-            <section class="form" id="welcomepage">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
-                ?>
-            </section>
+
             <!-- (END OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 
         </form>
+
+        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
+        <section class="form" id="welcomepage">
+            <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
+            ?>
+        </section>
         <!-- (END OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
 
