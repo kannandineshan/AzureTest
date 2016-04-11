@@ -9,7 +9,7 @@
 		session_start();
 		if(isset($_SESSION["vol_email"]))
 		{
-			header("Location: volunteerhome.php");	//sending to volunteerhub.php
+			header("Location: volunteerhome.html");	//sending to volunteerhub.php
 		}
 		/*else{
 			show_volunteer_login();
@@ -25,7 +25,7 @@
 		if(volunteer_registered($email,$password)){		//see function below
 			session_start();
 			$_SESSION["vol_email"]=$email;		//session linked to volunteer's email
-			header("Location: volunteerhome.php");
+			header("Location: volunteerhome.html");
 		}
 		else{
 /*			show_volunteer_login();*/ //This is no longer necessary
