@@ -8,12 +8,12 @@ $password = $_POST['password'];
 if (empty($_POST["username"]) || empty($_POST["password"]))
 {
     echo "Both fields are required.";
-} elseif ($username = "dinesh"&& $password ="hello" )
+} elseif ($username == "dinesh"&& $password =="hello" )
     {
         setcookie('access_level','standarduser');
         header("location: homepage.php"); // Redirecting To another Page
     }
-    elseif($username = "1510215"&& $password ="hello" )
+    elseif($username == "1510215"&& $password =="hello" )
     {
         setcookie('access_level','student');
         header("location: homepage"); // Redirecting To another Page
