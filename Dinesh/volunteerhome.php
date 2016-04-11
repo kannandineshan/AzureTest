@@ -163,37 +163,37 @@ function get_volunteer_name($email){
 
             <!-- SURVEY QUESTION 6 -->
             <section class="form" id="cont6">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question6.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question6.html"); ?>
             </section>
 
 
             <!-- SURVEY QUESTION 5 -->
             <section class="form" id="cont5">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question5.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question5.html"); ?>
             </section>
 
 
             <!-- SURVEY QUESTION 4 -->
             <section class="form" id="cont4">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question4.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question4.html"); ?>
             </section>
 
 
             <!-- SURVEY QUESTION 3 -->
             <section class="form" id="cont3">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question3.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question3.html"); ?>
             </section>
 
 
             <!-- SURVEY QUESTION 2 -->
             <section class="form" id="cont2">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question2.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question2.html"); ?>
             </section>
 
 
             <!-- SURVEY QUESTION 1 -->
             <section class="form" id="cont1">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question1.php"); ?>
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question1.html"); ?>
             </section>
 
 
