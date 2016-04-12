@@ -8,7 +8,7 @@
 
     session_start();
     if(!isset($_SESSION['ad_email'])){
-        header("Location: login.php");
+        header("Location: index.php");
     }
 
     //I DON'T UNDERSTAND WHAT THIS DOES...

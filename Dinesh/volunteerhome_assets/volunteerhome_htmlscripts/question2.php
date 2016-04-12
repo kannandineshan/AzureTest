@@ -20,5 +20,5 @@
 </div>
 <h5>
     <input class="navbuttons" type="button" id="previous1" name="previous" value="GO TO QUESTION 1">
-    <a href="http://kannandineshan.azurewebsites.net/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question3.html">yooo</a>
+    <input class="navbuttons" type="button" id="next3" name="next" value="GO TO QUESTION 3">
 </h5>

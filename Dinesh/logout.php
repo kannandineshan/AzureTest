@@ -5,6 +5,6 @@
 	session_start();
 	if(session_destroy()) // Destroying All Sessions
 	{
-		header("Location: login.php"); // Redirecting To Login Page
+		header("Location: index.php"); // Redirecting To Login Page
 	}
 ?>
