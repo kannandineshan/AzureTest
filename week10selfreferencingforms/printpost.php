@@ -1,3 +1,3 @@
 <?php
-$title = $_GET["title"];
+$title = $_POST["title"];
 echo $title;
