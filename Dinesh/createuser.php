@@ -4,10 +4,10 @@
 
 
 
-    //sends user back to login.php if not logged in
+    //sends user back to index.php if not logged in
     session_start();
     if(!isset($_SESSION['ad_email'])){
-        header("Location: login.php");
+        header("Location: index.php");
     }
 ?>
 

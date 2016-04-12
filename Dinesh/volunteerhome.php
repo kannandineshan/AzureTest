@@ -1,10 +1,3 @@
-
-
-
-<!DOCTYPE html>
-
-<html lang="en">
-
 <?php
 
     //THIS PAGE HAS THE SURVEY WITH LINKS TO ALL QUESTIONS ON IT
@@ -26,70 +19,75 @@ function get_volunteer_name($email){
     include("db_connection.php");   //connect to database
 
     if($db->connect_errno){
-die('Connectfailed['.$db->connect_error.']');   //if connection fails, return error
+        die('Connectfailed['.$db->connect_error.']');   //if connection fails, return error
+    }
+
+    $namequery = "SELECT vol_firstname, vol_surname FROM volunteers WHERE vol_email='$email'";  //query for getting name
+
+    $result = $db->query($namequery);
+
+    $row = $result->fetch_array();
+
+    $firstname = $row['vol_firstname'];
+    $surname = $row['vol_surname'];
+
+    echo " {$firstname} {$surname}!";   //the function prints the name with a space before and an exclamation mark after it
 }
 
-$namequery = "SELECT vol_firstname, vol_surname FROM volunteers WHERE vol_email='$email'";  //query for getting name
 
-$result = $db->query($namequery);
+    //pulls question text from question id
+    function get_question_text($qid){
+        //connect to the database
+        include("db_connection.php");
 
-$row = $result->fetch_array();
+        if($db->connect_errno){
+            die('Connectfailed['.$db->connect_error.']');   //error displayed if connection failed
+        }
 
-$firstname = $row['vol_firstname'];
-$surname = $row['vol_surname'];
+        $query = "SELECT question_text FROM questions WHERE question_id='$qid'";    //query
 
-echo " {$firstname} {$surname}!";   //the function prints the name with a space before and an exclamation mark after it
-}
+        $result = $db->query($query);
 
+        $row = $result->fetch_assoc();
 
-//pulls question text from question id
-function get_question_text($qid){
-//connect to the database
-include("db_connection.php");
+        echo $row['question_text']; //print question
+    }
 
-if($db->connect_errno){
-die('Connectfailed['.$db->connect_error.']');   //error displayed if connection failed
-}
+    //same as above with question type as a result
+    function get_question_type($qid){
+        //connect to the database
+        include("db_connection.php");
 
-$query = "SELECT question_text FROM questions WHERE question_id='$qid'";    //query
+        if($db->connect_errno){
+            die('Connectfailed['.$db->connect_error.']');
+        }
 
-$result = $db->query($query);
+        $query = "SELECT question_type FROM questions WHERE question_id='$qid''";
 
-$row = $result->fetch_assoc();
+        $result = $db->query($query);
 
-echo $row['question_text']; //print question
-}
+        $row = $result->fetch_assoc();
 
-//same as above with question type as a result
-function get_question_type($qid){
-//connect to the database
-include("db_connection.php");
-
-if($db->connect_errno){
-die('Connectfailed['.$db->connect_error.']');
-}
-
-$query = "SELECT question_type FROM questions WHERE question_id='$qid''";
-
-$result = $db->query($query);
-
-$row = $result->fetch_assoc();
-
-echo $row['question_type'];
-}
+        echo $row['question_type'];
+    }
 
 
 /*
-* question type key:
-*
-* 0 - text answer
-* 1 - numerical answer
-* 2 - multiple choice
-* 3 - yes/no
-*/
+ * question type key:
+ *
+ * 0 - text answer
+ * 1 - numerical answer
+ * 2 - multiple choice
+ * 3 - yes/no
+ */
 
 
 ?>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
 
 <!-- - [START OF HEAD] ============================================================================================= -->
 <head>
@@ -144,13 +142,59 @@ echo $row['question_type'];
     <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <main>
 
+        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+        <section class="welcomepage" id="welcomepage">
+            <?php include ("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.php")
+            ?>
+        </section>
+        <!-- (END OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+        <!-- Survey Progression Bar -->
+        <section class="surveybar" id="surveybar" style="display: none;">
+            <section id="progressbar"><section class="progress-label"></section>
+        </section>
+
+
+
         <!-- (START OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
         <form class="main" id="surveyform" action="submitsurveyanswers.php" method="post" >
 
 
-            <!-- Survey Progression Bar -->
-            <section class="form" id="surveybar">
-            <section id="progressbar"><section class="progress-label"></section>
+
+
+            <!-- SURVEY QUESTION 1 -->
+            <section class="form" id="cont1">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question1.php"); ?>
+            </section>
+
+
+            <!-- SURVEY QUESTION 2 -->
+            <section class="form" id="cont2">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question2.php"); ?>
+            </section>
+
+
+            <!-- SURVEY QUESTION 3 -->
+            <section class="form" id="cont3">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question3.php"); ?>
+            </section>
+
+
+            <!-- SURVEY QUESTION 4 -->
+            <section class="form" id="cont4">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question4.php"); ?>
+            </section>
+
+
+            <!-- SURVEY QUESTION 5 -->
+            <section class="form" id="cont5">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question5.php"); ?>
+            </section>
+
+
+            <!-- SURVEY QUESTION 6 -->
+            <section class="form" id="cont6">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question6.php"); ?>
             </section>
 
 
@@ -162,56 +206,10 @@ echo $row['question_type'];
             </section>
 
 
-            <!-- SURVEY QUESTION 6 -->
-            <section class="form" id="cont6">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question6.html"); ?>
-            </section>
-
-
-            <!-- SURVEY QUESTION 5 -->
-            <section class="form" id="cont5">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question5.html"); ?>
-            </section>
-
-
-            <!-- SURVEY QUESTION 4 -->
-            <section class="form" id="cont4">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question4.html"); ?>
-            </section>
-
-
-            <!-- SURVEY QUESTION 3 -->
-            <section class="form" id="cont3">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question3.html"); ?>
-            </section>
-
-
-            <!-- SURVEY QUESTION 2 -->
-            <section class="form" id="cont2">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question2.html"); ?>
-            </section>
-
-
-            <!-- SURVEY QUESTION 1 -->
-            <section class="form" id="cont1">
-                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/question1.html"); ?>
-            </section>
-
-
-
-            <!-- (END OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-
-
-
-
-
+        </form>
         <!-- (END OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
-        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - -  -->
-        <section class="w" id="welcomepage">
-            <?php include("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.html")
-            ?>
-        </section>
+
     </main>
     <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 

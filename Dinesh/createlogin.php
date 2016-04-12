@@ -33,7 +33,7 @@
 		}
 		else{
 
-			//read input details from login.php
+			//read input details from index.php
 			$email=$_POST['email'];
 
 
@@ -185,7 +185,7 @@
 			header("Location: createuser.php");
 		}
 		else{
-			header("Location: login.php");
+			header("Location: index.php");
 		}
 	}*/
 
