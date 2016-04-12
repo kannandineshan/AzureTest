@@ -29,7 +29,8 @@ main{
 }
 
 #surveyform{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .form{
