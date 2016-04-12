@@ -14,7 +14,7 @@ h2{
 }
 
 main{
-    max-width: 960px;
+    max-width: 600px;
     height: 500px;
     position: absolute;
     left: 0;
@@ -30,6 +30,8 @@ main{
 
 .form{
     display: none;
+    display: flex;
+    flex-direction: row;
 }
 
 #cont1 {
