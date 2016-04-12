@@ -6,9 +6,9 @@
 $( "#start" ).click(function() {
     $( "#welcomepage" ).toggle( "fade", 1000 );
     $( "#surveybar" ).toggle( "slide", 1000 );
-    $( "#cont1" ).toggle( "bounce", 1000 );
-    $( "#cont2" ).toggle( "bounce", 1000 );
-    $( "#cont3" ).toggle( "bounce", 1000 );
+    $( "#cont1" ).toggle( "bounce", 500 );
+    $( "#cont2" ).toggle( "bounce", 500 );
+    $( "#cont3" ).toggle( "bounce", 500 );
 });
 
 $( "#next2" ).click(function() {
