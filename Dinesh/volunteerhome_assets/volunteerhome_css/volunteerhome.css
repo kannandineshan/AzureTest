@@ -32,6 +32,10 @@ main{
     display: none;
 }
 
+section{
+    display: flex;
+    flex-direction: row;
+}
 
 #cont1 {
     background: yellowgreen;
