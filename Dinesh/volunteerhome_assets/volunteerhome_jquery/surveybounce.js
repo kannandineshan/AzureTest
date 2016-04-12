@@ -4,11 +4,11 @@
 
 
 $( "#start" ).click(function() {
-    $( "#welcomepage" ).toggle( "fade", 1000 );
-    $( "#surveybar" ).toggle( "slide", 300 );
-    $( "#cont1" ).toggle( "bounce", 1500 );
-    $( "#cont2" ).toggle( "bounce", 1500 );
-    $( "#cont3" ).toggle( "bounce", 1500 );
+    $( "#welcomepage" ).toggle( "fade", 50 );
+    $( "#surveybar" ).toggle( "slide", 100 );
+    $( "#cont1" ).toggle( "bounce", 2000 );
+    $( "#cont2" ).toggle( "bounce", 2000 );
+    $( "#cont3" ).toggle( "bounce", 2000 );
 });
 
 $( "#next2" ).click(function() {
