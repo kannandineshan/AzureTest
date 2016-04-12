@@ -30,9 +30,8 @@ main{
 
 .form{
     display: none;
-    display: flex;
-    flex-direction: row;
 }
+
 
 #cont1 {
     background: yellowgreen;
