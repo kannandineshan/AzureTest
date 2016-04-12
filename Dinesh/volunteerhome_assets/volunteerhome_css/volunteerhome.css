@@ -24,6 +24,7 @@ main{
 }
 
 #welcomepage{
+    height: 500px;
     background-color: aliceblue;
     position: absolute;
 }
