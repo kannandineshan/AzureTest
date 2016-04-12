@@ -28,7 +28,7 @@ main{
     position: absolute;
 }
 
-#surveyform{
+form{
     display: none;
 }
 
