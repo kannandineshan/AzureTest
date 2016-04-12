@@ -29,12 +29,9 @@ main{
 }
 
 #surveyform{
-    max-width: 960px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    height: 550px;
+
+
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -42,9 +39,9 @@ main{
 
 .form{
     display: none;
-    max-width: 600px;
-    height: 500px;
-    position: absolute;
+    max-width: 960px;
+    height: 550px;
+
     left: 0;
     right: 0;
     margin-left: auto;
