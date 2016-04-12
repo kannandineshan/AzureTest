@@ -24,12 +24,12 @@ main{
 }
 
 #welcomepage{
-    max-width: 960px;
     background-color: aliceblue;
     position: absolute;
 }
 
 #surveyform{
+    max-width: 960px;
     display: flex;
     flex-direction: row;
 }
