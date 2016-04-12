@@ -4,5 +4,11 @@ $title = $_POST["title"];
 $content = $_POST["content"];
 $animals = $_POST["animals"];
 
-echo $title ."<br>". $content ."<br>". $animals  ;
+echo
+"<article>
+<h1>{$title}</h1>
+<p>{$content}</p>
+<strong>{$animals}</strong>
+</article>
+";
 ?>
