@@ -28,13 +28,8 @@ main{
     position: absolute;
 }
 
-.form{
+#surveyform{
     display: none;
-}
-
-section{
-    display: flex;
-    flex-direction: row;
 }
 
 #cont1 {
@@ -69,7 +64,6 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    display: none;
 }
 
 h5{
