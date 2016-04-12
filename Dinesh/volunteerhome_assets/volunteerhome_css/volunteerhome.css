@@ -29,6 +29,10 @@ main{
 }
 
 #surveyform{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     height: 550px;
     display: flex;
     flex-direction: row;
