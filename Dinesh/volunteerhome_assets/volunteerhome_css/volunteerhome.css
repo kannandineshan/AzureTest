@@ -36,7 +36,6 @@ main{
     height: 550px;
     display: flex;
     flex-direction: row;
-    flex-grow: 2;
     justify-content: center;
 }
 
