@@ -1,5 +1,5 @@
 body{
-    max-width: 600px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -8,11 +8,21 @@ body{
     display: flex;
 }
 
+#filedsetnav{
+    height: 500px;
+padding: 0px;
+}
+
+#filedsetcontent{
+    max-width: 500px;
+}
+
 main{
     display: flex;
+    max-width: 650px;
 }
 #logo{
-    max-width: 200px;
+    max-width: 150px;
 }
 
 ul {
@@ -26,11 +36,14 @@ li a {
     text-align: center;
     padding: 0 10px 10px 10px;
     text-decoration: none;
-    margin: 20px;
+    margin: 5px;
 
 }
 
 form{
     display: flex;
     flex-direction: column;
+}
+p{
+    padding: 0 10px 10px 10px;
 }
