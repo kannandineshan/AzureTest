@@ -1,0 +1,36 @@
+body{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#filedsethead{
+    display: flex;
+}
+
+main{
+    display: flex;
+}
+#logo{
+    max-width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
