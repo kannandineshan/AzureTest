@@ -10,11 +10,10 @@ body{
 
 #filedsetnav{
     height: 500px;
-padding: 0px;
 }
 
 #filedsetcontent{
-    max-width: 500px;
+    max-width: 490px;
 }
 
 main{
