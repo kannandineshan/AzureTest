@@ -107,6 +107,17 @@ function get_volunteer_name($email){
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+
+    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 </head>
 <!-- - [END OF HEAD] =============================================================================================== -->
 
@@ -142,24 +153,38 @@ function get_volunteer_name($email){
     <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <main>
 
-        <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-        <section class="welcomepage" id="welcomepage">
-            <?php include ("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.php")
-            ?>
-        </section>
-        <!-- (END OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
-
-        <!-- Survey Progression Bar -->
-        <section class="surveybar" id="surveybar" style="display: none;">
-            <section id="progressbar"><section class="progress-label"></section>
-        </section>
-
-
 
         <!-- (START OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
         <form class="main" id="surveyform" action="submitsurveyanswers.php" method="post" >
 
 
+            <!-- (START OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+            <section class="welcomepage" id="welcomepage">
+                <?php include ("volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.php"); ?>
+            </section>
+            <!-- (END OF WELCOME PAGE) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+
+            <!-- Survey Progression Bar -->
+            <section class="form" id="surveybar">
+                <section id="progressbar"><section class="progress-label"></section>
+            </section>
+
+
+            <!-- Survey Indicator Bar -->
+            <section class=indicatorbar>
+                <section class="bar" id="bar1">
+                    <section class="indicators">
+                        <h1>Q1</h1>
+                    </section>
+                </section>
+
+                <section class = "bar" id="bar2">
+                    <section class="indicators">
+                        <h1>Q2</h1>
+                    </section>
+                </section>
+            </section>
 
 
             <!-- SURVEY QUESTION 1 -->
@@ -199,12 +224,9 @@ function get_volunteer_name($email){
 
 
             <!-- SURVEY QUESTIONS SUMMARY AND SUBMISSION -->
-            <section class="form" id="cont7">
-                <h1>Survey Questions Summary:</h1>
-                <p id="summary"></p>
-                <input type="submit" id="submit" name="submit" value="SUBMIT SURVEY">
+            <section class="form" id="surveysummaryandsubmission">
+                <?php include("volunteerhome_assets/volunteerhome_htmlscripts/surveysummaryandsubmission.php"); ?>
             </section>
-
 
         </form>
         <!-- (END OF SURVEY) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
@@ -213,10 +235,131 @@ function get_volunteer_name($email){
     </main>
     <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+<footer>
+    <div class="container">
 
-    <!-- CALL JQUERY SCRIPT FUNCTION -->
+
+
+
+
+
+        <div class="wrapper">
+
+            <ul id="sb-slider" class="sb-slider">
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="images/1.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Creative Lifesaver</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="images/2.jpg" alt="image2"/></a>
+                    <div class="sb-description">
+                        <h3>Honest Entertainer</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="images/3.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Brave Astronaut</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="images/4.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Affectionate Decision Maker</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="images/5.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Faithful Investor</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="images/6.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Groundbreaking Artist</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="images/7.jpg" alt="image1"/></a>
+                    <div class="sb-description">
+                        <h3>Selfless Philantropist</h3>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="shadow" class="shadow"></div>
+
+            <div id="nav-arrows" class="nav-arrows">
+                <a href="#">Next</a>
+                <a href="#">Previous</a>
+            </div>
+
+        </div><!-- /wrapper -->
+
+
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var Page = (function() {
+
+                var $navArrows = $( '#nav-arrows' ).hide(),
+                    $shadow = $( '#shadow' ).hide(),
+                    slicebox = $( '#sb-slider' ).slicebox( {
+                        onReady : function() {
+
+                            $navArrows.show();
+                            $shadow.show();
+
+                        },
+                        orientation : 'r',
+                        cuboidsRandom : true,
+                        disperseFactor : 30
+                    } ),
+
+                    init = function() {
+
+                        initEvents();
+
+                    },
+                    initEvents = function() {
+
+                        // add navigation events
+                        $navArrows.children( ':first' ).on( 'click', function() {
+
+                            slicebox.next();
+                            return false;
+
+                        } );
+
+                        $navArrows.children( ':last' ).on( 'click', function() {
+
+                            slicebox.previous();
+                            return false;
+
+                        } );
+
+                    };
+
+                return { init : init };
+
+            })();
+
+            Page.init();
+
+        });
+    </script>
+
+
+</footer>
+    <!-- CALL JQUERY SCRIPT FUNCTIONS -->
     <script SRC="volunteerhome_assets/volunteerhome_jquery/surveybounce.js"></script>
-
+    <script SRC="volunteerhome_assets/volunteerhome_jquery/modernizr-custom.js"></script>
 
 </body>
 <!-- [END OF BODY] ================================================================================================= -->
