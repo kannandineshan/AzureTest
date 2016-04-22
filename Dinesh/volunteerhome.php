@@ -115,8 +115,6 @@ function get_volunteer_name($email){
 
 
 
-    <link rel="stylesheet" type="text/css" href="css/slicebox.css" />
-
     <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
 </head>
 <!-- - [END OF HEAD] =============================================================================================== -->
