@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 header{
     max-width: 600px;
     height: auto;
