@@ -115,7 +115,7 @@ function get_volunteer_name($email){
 
 
 
-    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+
 </head>
 <!-- - [END OF HEAD] =============================================================================================== -->
 
@@ -294,59 +294,8 @@ function get_volunteer_name($email){
 
 
         </div>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.slicebox.js"></script>
-        <script type="text/javascript">
-            $(function() {
 
-                var Page = (function() {
 
-                    var $navArrows = $( '#nav-arrows' ).hide(),
-                        $shadow = $( '#shadow' ).hide(),
-                        slicebox = $( '#sb-slider' ).slicebox( {
-                            onReady : function() {
-
-                                $navArrows.show();
-                                $shadow.show();
-
-                            },
-                            orientation : 'r',
-                            cuboidsRandom : true,
-                            disperseFactor : 30
-                        } ),
-
-                        init = function() {
-
-                            initEvents();
-
-                        },
-                        initEvents = function() {
-
-                            // add navigation events
-                            $navArrows.children( ':first' ).on( 'click', function() {
-
-                                slicebox.next();
-                                return false;
-
-                            } );
-
-                            $navArrows.children( ':last' ).on( 'click', function() {
-
-                                slicebox.previous();
-                                return false;
-
-                            } );
-
-                        };
-
-                    return { init : init };
-
-                })();
-
-                Page.init();
-
-            });
-        </script>
 
 
     </footer>
