@@ -103,7 +103,6 @@ function get_volunteer_name($email){
 
     <!-- - CSS Stylesheet- -->
     <link rel="stylesheet" href="volunteerhome_assets/volunteerhome_css/volunteerhome.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="volunteerhome_assets/volunteerhome_css/slicebox.css" />
 
     <!-- - JQUERY SCRIPT- -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
