@@ -157,8 +157,8 @@ h5{
 
 
 .container{
-    position: absolute;
-    top: 500px;
+    position: static;
+
 }
 
 
