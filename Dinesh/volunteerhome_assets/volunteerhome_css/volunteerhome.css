@@ -154,6 +154,15 @@ h5{
 
 
 /* Slicebox Style */
+
+
+.container{
+    position: absolute;
+    top: 500px;
+}
+
+
+
 .sb-slider {
     margin: 10px auto;
     position: relative;
