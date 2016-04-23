@@ -9,9 +9,9 @@ $( "#start" ).click(function() {
     if (Modernizr.formvalidation) {
         //Checks if field is filled using html5 form validation
         if ($('#eventdate')[0].checkValidity()) {
-            $("#welcomepage").toggle("fade", 1000);
-            $("#surveybar").toggle("fade", 1000);
-            $("#cont1").toggle("explode", 1000);
+            $("#welcomepage").toggle("fade", 2000);
+            $("#surveybar").toggle("fade", 2000);
+            $("#cont1").toggle("explode", 2000);
         }else {
             $("#surveyform").find(':submit').click()
         }
@@ -20,9 +20,9 @@ $( "#start" ).click(function() {
         if (!$('#eventdate').val()){
             alert("Please Enter the Date of Event.");
         }else{
-            $("#welcomepage").toggle("fade", 1000);
-            $("#surveybar").toggle("fade", 1000);
-            $("#cont1").toggle("explode", 1000);
+            $("#welcomepage").toggle("fade", 2000);
+            $("#surveybar").toggle("fade", 2000);
+            $("#cont1").toggle("explode", 2000);
         }
     }
 });
@@ -33,8 +33,8 @@ $( "#next2" ).click(function() {
     if (Modernizr.formvalidation) {
         //Checks if field is filled using html5 form validation
         if ($('#question1')[0].checkValidity()) {
-            $("#cont1").toggle("explode", 1000);
-            $("#cont2").toggle("size", 1000);
+            $("#cont1").toggle("explode", 2000);
+            $("#cont2").toggle("size", 2000);
             $("#progressbar").progressbar({
                 value: 17
             });
@@ -46,8 +46,8 @@ $( "#next2" ).click(function() {
         if (!$('#question1').val()){
             alert("Please fill in required field.");
         }else{
-            $("#cont1").toggle("explode", 1000);
-            $("#cont2").toggle("size", 1000);
+            $("#cont1").toggle("explode", 2000);
+            $("#cont2").toggle("size", 2000);
             $("#progressbar").progressbar({
                 value: 17
             });
