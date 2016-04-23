@@ -303,7 +303,6 @@ function get_volunteer_name($email){
 
     <!-- CALL JQUERY SCRIPT FUNCTIONS -->
     <script SRC="volunteerhome_assets/volunteerhome_jquery/surveybounce.js"></script>
-    <script type="text/javascript" src="volunteerhome_assets/volunteerhome_jquery/jquery.slicebox.js"></script>
     <script SRC="volunteerhome_assets/volunteerhome_jquery/modernizr-custom.js"></script>
 
 
