@@ -110,8 +110,7 @@ function get_volunteer_name($email){
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-
-
+    <script type="text/javascript" src="volunteerhome_assets/volunteerhome_jquery/modernizr.custom.46884.js"></script>
 
 
 
@@ -306,7 +305,7 @@ function get_volunteer_name($email){
     <script SRC="volunteerhome_assets/volunteerhome_jquery/surveybounce.js"></script>
     <script type="text/javascript" src="volunteerhome_assets/volunteerhome_jquery/jquery.slicebox.js"></script>
     <script SRC="volunteerhome_assets/volunteerhome_jquery/modernizr-custom.js"></script>
-    <script type="text/javascript" src="volunteerhome_assets/volunteerhome_jquery/modernizr.custom.46884.js"></script>
+
 
 </body>
 <!-- [END OF BODY] ================================================================================================= -->
