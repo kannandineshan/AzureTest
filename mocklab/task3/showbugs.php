@@ -76,7 +76,7 @@
                 arbitrary operations on the victim device through remote code execution and privilege escalation.
             </div>
 
-            <div id="line-space"></div>
+            <section class="line-space"></div>
 
             <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
             <br>
