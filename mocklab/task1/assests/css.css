@@ -6,8 +6,8 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
-.container-line-space{
-    line-break: loose;
+.showbugs {
+    border-top: 1px solid black;
 }
 
 #logo{

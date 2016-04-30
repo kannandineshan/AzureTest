@@ -66,26 +66,32 @@
 
         <section class="container-content" id="content-showbugs">
 
-            <div class="title"> Bug Name: StageFright</div>
-            <br>
-            <div class="category"> Bug Category: Android</div>
-            <br>
-            <div class="summary">
-                Bug Summary: Stagefright is the collective name for a group of software bugs,
-                that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform
-                arbitrary operations on the victim device through remote code execution and privilege escalation.
-            </div>
+            <section class="showbugs">
 
-            <section class="container-line-space" id="line-space"></div>
+                <div class="title"> Bug Name: StageFright</div>
+                <br>
+                <div class="category"> Bug Category: Android</div>
+                <br>
+                <div class="summary">
+                    Bug Summary: Stagefright is the collective name for a group of software bugs,
+                    that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform
+                    arbitrary operations on the victim device through remote code execution and privilege escalation.
+                </div>
 
-            <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
-            <br>
-            <div class="category"> Bug Category: iOS</div>
-            <br>
-            <div class="summary">
-                Bug Summary:The DCEB is a very powerful and fictional bug that infects iOS devices and does absolutely nothing at all.
-                Its only purpose is to provide dummy data for assessed labs
-            </div>
+            </section>
+
+            <section class="showbugs">
+
+                <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
+                <br>
+                <div class="category"> Bug Category: iOS</div>
+                <br>
+                <div class="summary">
+                    Bug Summary:The DCEB is a very powerful and fictional bug that infects iOS devices and does absolutely nothing at all.
+                    Its only purpose is to provide dummy data for assessed labs
+                </div>
+
+            </section>
 
         </section>
 
