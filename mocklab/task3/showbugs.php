@@ -5,6 +5,19 @@
  * Date: 30/04/2016
  * Time: 20:21
  */
+
+
+function getbugs(){
+
+    include("connection.php");
+
+    $sql = "SELECT * FROM bugs";  //query for getting name
+
+    $result = mysqli_query($db,$sql);
+
+    echo " {$sql}";   //the function prints the name with a space before and an exclamation mark after it
+}
+
 ?>
 
 
@@ -79,17 +92,10 @@
                 </div>
 
             </div>
-<hr>
+        <hr>
             <div class="showbugs">
 
-                <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
-                <br>
-                <div class="category"> Bug Category: iOS</div>
-                <br>
-                <div class="summary">
-                    Bug Summary:The DCEB is a very powerful and fictional bug that infects iOS devices and does absolutely nothing at all.
-                    Its only purpose is to provide dummy data for assessed labs
-                </div>
+                <?php getbugs();?>
 
             </div>
 
