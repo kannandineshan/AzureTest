@@ -79,7 +79,7 @@
                 </div>
 
             </div>
-
+<hr>
             <div class="showbugs">
 
                 <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
