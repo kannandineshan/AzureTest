@@ -75,7 +75,7 @@
                 that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform
                 arbitrary operations on the victim device through remote code execution and privilege escalation.
             </div>
-            ------
+            ------------------------------------------------------------------------------------------------------------
 
             <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
             <br>
