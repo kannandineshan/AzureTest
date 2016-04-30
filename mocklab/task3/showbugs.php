@@ -121,9 +121,15 @@ function getbugssummary(){
 
                 <section class="title"> Bug Name:</section> <?php getbugsname();?>
 
+                <br>
+
                 <section class="title"> Bug Category:</section> <?php getbugscategory();?>
 
+                <br>
+
                 <section class="title">Bug Summary:</section> <?php getbugssummary();?>
+
+                <br>
 
             </div>
         <hr>
