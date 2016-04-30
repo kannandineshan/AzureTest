@@ -123,7 +123,7 @@ function getbugssummary(){
                 <br>
                 <div class="category"> Bug Category: <?php getbugscategory();?></div>
                 <br>
-                <div class="summary">Bug Summary: <?php getbugssummary();?></div>
+                <div class="summary">Bug Summary:<br> <?php getbugssummary();?></div>
 
             </div>
         <hr>
