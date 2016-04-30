@@ -2,26 +2,23 @@ body{
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+    border: solid;
+    padding: 10px 10px 10px 10px;
 }
 
-#filedsethead{
+.container{
+    border: dotted;
+    padding: 10px 10px 10px 10px;
     display: flex;
 }
 
-#filedsetnav{
-    height: 500px;
-}
-
-#filedsetcontent{
-    max-width: 490px;
-}
-
-main{
-    display: flex;
-    max-width: 650px;
-}
 #logo{
     max-width: 150px;
+}
+
+#nav{
+    height: 500px;
+    border: dotted;
 }
 
 ul {
@@ -36,15 +33,6 @@ li a {
     padding: 0 10px 10px 10px;
     text-decoration: none;
     margin: 5px;
-
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-}
-p{
-    padding: 0 10px 10px 10px;
 }
 
 .title{
@@ -52,6 +40,19 @@ p{
     font-weight: bold;
 }
 
+#content{
+    max-width: 490px;
+    border: dotted;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 .category{
     font-style: italic;
+}
+
+p{
+    padding: 0 10px 10px 10px;
 }
