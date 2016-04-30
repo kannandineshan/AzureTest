@@ -1,5 +1,5 @@
 body{
-    max-width: 650px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     border: solid;
@@ -17,7 +17,6 @@ body{
 }
 
 #nav{
-    max-width: 300px;
     height: 500px;
     border: dotted;
     font-size: 20px;
@@ -43,7 +42,6 @@ li a {
 }
 
 #content{
-    max-width: 450px;
     border: dotted;
 }
 form{
