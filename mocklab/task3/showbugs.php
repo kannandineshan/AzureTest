@@ -11,7 +11,7 @@ function getbugs(){
 
     include("connection.php");
 
-    $sql = "SELECT * FROM bugs";  //query for getting name
+    $sql = "SELECT bugName FROM bugs";  //query for getting name
 
     $result = mysqli_query($db,$sql);
 
