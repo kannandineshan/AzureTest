@@ -7,7 +7,7 @@ body{
 }
 
 #line-space{
-    border: double;
+    border: solid;
 }
 
 #logo{
