@@ -3,19 +3,16 @@
  * Created by PhpStorm.
  * User: Dinesh
  * Date: 30/04/2016
- * Time: 20:16
+ * Time: 20:21
  */
 ?>
 
 
 <!DOCTYPE html>
 <html lang="en">
-<!-- - [START OF HEAD] ============================================================================================= -->
 <head>
     <meta charset="UTF-8">
-
-    <title>index</title>
-
+    <title>list</title>
     <!-- - CSS Stylesheet- -->
     <link rel="stylesheet" href="assests/css.css" type="text/css">
 
@@ -41,7 +38,6 @@
 <!-- (END OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 
-
 <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <main>
 
@@ -49,15 +45,15 @@
 
 
         <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-        <section class="container-nav" id="nav-index">
+        <section class="container-nav" id="nav-showbugs">
 
             <nav>
                 <ul>
-                    <li><a href="showbugs.php">All Bug Items</a> </li>
-                    <li><a href="showbugs.php">Android Bugs</a> </li>
-                    <li><a href="showbugs.php">iOS Bugs</a> </li>
-                    <li><a href="showbugs.php">Windows Bugs</a> </li>
-                    <li><a href="addbugs.php">Insert Bug</a> </li>
+                    <li><a href="showbugs.html">All Bug Items</a> </li>
+                    <li><a href="showbugs.html">Android Bugs</a> </li>
+                    <li><a href="showbugs.html">iOS Bugs</a> </li>
+                    <li><a href="showbugs.html">Windows Bugs</a> </li>
+                    <li><a href="addbugs.html">Insert Bug</a> </li>
                 </ul>
 
             </nav>
@@ -65,20 +61,33 @@
         </section>
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <section class="container-content" id="content-index">
 
-            <p>
-                Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
-                In vehicula tempor est, vitae fringilla metus laoreet ut.
-                Fusce iaculis eu diam congue tempus.
-                Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
-            </p>
+        <section class="container-content" id="content-showbugs">
+
+            <div class="title"> Bug Name: StageFright</div>
+            <br>
+            <div class="category"> Bug Category: Android</div>
+            <br>
+            <div class="summary">
+                Bug Summary: Stagefright is the collective name for a group of software bugs,
+                that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform
+                arbitrary operations on the victim device through remote code execution and privilege escalation.
+            </div>
+            ------
+
+            <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
+            <br>
+            <div class="category"> Bug Category: iOS</div>
+            <br>
+            <div class="summary">
+                Bug Summary:The DCEB is a very powerful and fictional bug that infects iOS devices and does absolutely nothing at all.
+                Its only purpose is to provide dummy data for assessed labs
+            </div>
 
         </section>
 
 
     </section>
-
 </main>
 <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 

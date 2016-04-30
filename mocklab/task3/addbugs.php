@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Dinesh
  * Date: 30/04/2016
- * Time: 20:16
+ * Time: 20:24
  */
 ?>
 
@@ -49,15 +49,15 @@
 
 
         <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-        <section class="container-nav" id="nav-index">
+        <section class="container-nav" id="nav-addbugs">
 
             <nav>
                 <ul>
-                    <li><a href="showbugs.php">All Bug Items</a> </li>
-                    <li><a href="showbugs.php">Android Bugs</a> </li>
-                    <li><a href="showbugs.php">iOS Bugs</a> </li>
-                    <li><a href="showbugs.php">Windows Bugs</a> </li>
-                    <li><a href="addbugs.php">Insert Bug</a> </li>
+                    <li><a href="showbugs.html">All Bug Items</a> </li>
+                    <li><a href="showbugs.html">Android Bugs</a> </li>
+                    <li><a href="showbugs.html">iOS Bugs</a> </li>
+                    <li><a href="showbugs.html">Windows Bugs</a> </li>
+                    <li><a href="addbugs.html">Insert Bug</a> </li>
                 </ul>
 
             </nav>
@@ -65,17 +65,25 @@
         </section>
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <section class="container-content" id="content-index">
+        <section class="container-content" id="content-addbugs">
 
-            <p>
-                Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
-                In vehicula tempor est, vitae fringilla metus laoreet ut.
-                Fusce iaculis eu diam congue tempus.
-                Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
-            </p>
+            <form>
+
+                <label for="bugname">Bug Name</label>
+                <input required type="text" id="bugname">
+                <br>
+                <label for="bugsummary">Bug Summary</label>
+                <textarea required id="bugsummary"></textarea>
+                <br>
+                <label for="bugcategory">Bug Category</label>
+                <input required type="text" id="bugcategory">
+                <br>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+
+            </form>
 
         </section>
-
 
     </section>
 
