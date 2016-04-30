@@ -7,21 +7,54 @@
  */
 
 
-function getbugs(){
+function getbugsname(){
 
     include("connection.php");
 
-    $sql = "SELECT * FROM bugs";  //query for getting name
+    $sql = "SELECT bugName FROM bugs";  //query for getting name
 
     $result = mysqli_query($db,$sql);
 
     $row = $result->fetch_array();
 
-    $bugall = $row['*'];
+    $bugname = $row['bugName'];
 
-
-    echo " {$bugall}";   //the function prints the name with a space before and an exclamation mark after it
+    echo " {$bugname}";   //the function prints the name with a space before and an exclamation mark after it
 }
+
+function getbugscategory(){
+
+    include("connection.php");
+
+    $sql = "SELECT bugCategory FROM bugs";  //query for getting name
+
+    $result = mysqli_query($db,$sql);
+
+    $row = $result->fetch_array();
+
+    $bugCategory = $row['bugCategory'];
+
+
+    echo " {$bugCategory}";   //the function prints the name with a space before and an exclamation mark after it
+}
+
+function getbugssummary(){
+
+    include("connection.php");
+
+    $sql = "SELECT bugSummary FROM bugs";  //query for getting name
+
+    $result = mysqli_query($db,$sql);
+
+    $row = $result->fetch_array();
+
+    $bugSummary = $row['bugSummary'];
+
+    echo " {$bugSummary}";   //the function prints the name with a space before and an exclamation mark after it
+}
+
+
+
 
 ?>
 
@@ -86,15 +119,11 @@ function getbugs(){
 
             <div class="showbugs">
 
-                <div class="title"> Bug Name: StageFright</div>
+                <div class="title"> Bug Name: <?php getbugsname();?></div>
                 <br>
-                <div class="category"> Bug Category: Android</div>
+                <div class="category"> Bug Category: <?php getbugscategory();?></div>
                 <br>
-                <div class="summary">
-                    Bug Summary: Stagefright is the collective name for a group of software bugs,
-                    that affect versions 2.2 and newer of the Android operating system, allowing an attacker to perform
-                    arbitrary operations on the victim device through remote code execution and privilege escalation.
-                </div>
+                <div class="summary">Bug Summary: <?php getbugssummary();?></div>
 
             </div>
         <hr>
