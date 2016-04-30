@@ -6,7 +6,7 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
-.showbugs {
+#showbugs {
     border-top: solid;
 }
 
