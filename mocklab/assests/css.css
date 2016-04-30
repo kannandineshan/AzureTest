@@ -17,8 +17,10 @@ body{
 }
 
 #nav{
+    max-width: 300px;
     height: 500px;
     border: dotted;
+    font-size: 20px;
 }
 
 ul {
@@ -41,7 +43,7 @@ li a {
 }
 
 #content{
-    max-width: 490px;
+    max-width: 450px;
     border: dotted;
 }
 form{
