@@ -11,16 +11,16 @@ function getbugs(){
 
     include("connection.php");
 
-    $sql = "SELECT bugName FROM bugs";  //query for getting name
+    $sql = "SELECT * FROM bugs";  //query for getting name
 
     $result = mysqli_query($db,$sql);
 
     $row = $result->fetch_array();
 
-    $bugname = $row['bugName'];
+    $bugall = $row['*'];
 
 
-    echo " {$bugname}";   //the function prints the name with a space before and an exclamation mark after it
+    echo " {$bugall}";   //the function prints the name with a space before and an exclamation mark after it
 }
 
 ?>
