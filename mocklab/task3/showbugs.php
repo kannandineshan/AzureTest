@@ -119,11 +119,11 @@ function getbugssummary(){
 
             <div class="showbugs">
 
-                <div class="title"> Bug Name:</div> <?php getbugsname();?>
-                <br>
-                <div class="category"> Bug Category:</div> <?php getbugscategory();?>
+                <div id="title"> Bug Name:</div> <?php getbugsname();?>
 
-                <div class="summary">Bug Summary:</div> <?php getbugssummary();?>
+                <div id="title"> Bug Category:</div> <?php getbugscategory();?>
+
+                <div id="title">Bug Summary:</div> <?php getbugssummary();?>
 
             </div>
         <hr>
