@@ -19,7 +19,7 @@ function getbugsname(){
 
     $bugname = $row['bugName'];
 
-    echo " {$bugname}";   //the function prints the name with a space before and an exclamation mark after it
+    echo "{$bugname}<br>";   //the function prints the name with a space before and an exclamation mark after it
 }
 
 function getbugscategory(){
@@ -35,7 +35,7 @@ function getbugscategory(){
     $bugCategory = $row['bugCategory'];
 
 
-    echo " {$bugCategory}";   //the function prints the name with a space before and an exclamation mark after it
+    echo " {$bugCategory}<br>";   //the function prints the name with a space before and an exclamation mark after it
 }
 
 function getbugssummary(){
@@ -50,7 +50,7 @@ function getbugssummary(){
 
     $bugSummary = $row['bugSummary'];
 
-    echo " {$bugSummary}";   //the function prints the name with a space before and an exclamation mark after it
+    echo " {$bugSummary}<br>";   //the function prints the name with a space before and an exclamation mark after it
 }
 
 
