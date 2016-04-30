@@ -66,7 +66,7 @@
 
         <section class="container-content" id="content-showbugs">
 
-            <section class="showbugs">
+            <div class="showbugs">
 
                 <div class="title"> Bug Name: StageFright</div>
                 <br>
@@ -78,9 +78,9 @@
                     arbitrary operations on the victim device through remote code execution and privilege escalation.
                 </div>
 
-            </section>
+            </div>
 
-            <section class="showbugs">
+            <div class="showbugs">
 
                 <div class="title"> Bug Name: Dr Crabbs Evil Bugt</div>
                 <br>
@@ -91,7 +91,7 @@
                     Its only purpose is to provide dummy data for assessed labs
                 </div>
 
-            </section>
+            </div>
 
         </section>
 
