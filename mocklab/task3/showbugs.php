@@ -12,7 +12,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>list</title>
+
+    <title>Show Bugs</title>
+
     <!-- - CSS Stylesheet- -->
     <link rel="stylesheet" href="assests/css.css" type="text/css">
 

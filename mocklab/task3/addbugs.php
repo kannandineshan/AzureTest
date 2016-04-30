@@ -14,7 +14,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>index</title>
+    <title>Add Bugs</title>
 
     <!-- - CSS Stylesheet- -->
     <link rel="stylesheet" href="assests/css.css" type="text/css">
