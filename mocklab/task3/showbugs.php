@@ -15,7 +15,12 @@ function getbugs(){
 
     $result = mysqli_query($db,$sql);
 
-    echo " {$sql}";   //the function prints the name with a space before and an exclamation mark after it
+    $row = $result->fetch_array();
+
+    $bugname = $row['bugName'];
+
+
+    echo " {$bugname}";   //the function prints the name with a space before and an exclamation mark after it
 }
 
 ?>
