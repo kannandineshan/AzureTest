@@ -6,17 +6,21 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
+#logo{
+    max-width: 150px;
+}
+
 .container{
     border: dotted;
     padding: 10px 10px 10px 10px;
     display: flex;
 }
 
-#logo{
-    max-width: 150px;
+.container-content{
+    border: dotted;
 }
 
-#nav{
+.container-nav{
     height: 500px;
     border: dotted;
     font-size: 20px;
@@ -41,9 +45,7 @@ li a {
     font-weight: bold;
 }
 
-#content{
-    border: dotted;
-}
+
 form{
     display: flex;
     flex-direction: column;

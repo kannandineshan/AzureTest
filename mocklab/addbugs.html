@@ -17,74 +17,81 @@
 <body>
 
 <!-- (START OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<header>
-    <fieldset id="filedsethead">
+    <header>
+        <section class="container" id="head">
 
-        <section class="headercontainer"><img id="logo" src="assests/images/logo.png"></section>
-        <section class="headercontainer">
-            <h1>BugTracker</h1>
-            <h3>Keeping track of all the pesky little bugs</h3>
+            <section class="headercontainer"><img id="logo" src="assests/images/logo.png"></section>
+            <section class="headercontainer">
+                <h1>BugTracker</h1>
+                <h3>Keeping track of all the pesky little bugs</h3>
+            </section>
+
         </section>
-
-    </fieldset>
-</header>
+    </header>
 <!-- (END OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 
 
 <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<main>
+    <main>
 
-    <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-    <fieldset id="filedsetnav">
+        <section class="container" id="main">
 
-        <nav>
-            <ul>
-                <li><a href="showbugs.html">All Bug Items</a> </li>
-                <li><a href="showbugs.html">Android Bugs</a> </li>
-                <li><a href="showbugs.html">iOS Bugs</a> </li>
-                <li><a href="showbugs.html">Windows Bugs</a> </li>
-                <li><a href="addbugs.html">Insert Bug</a> </li>
-            </ul>
 
-        </nav>
+            <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <section class="container-nav" id="nav-addbugs">
 
-    </fieldset>
-    <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                <nav>
+                    <ul>
+                        <li><a href="showbugs.html">All Bug Items</a> </li>
+                        <li><a href="showbugs.html">Android Bugs</a> </li>
+                        <li><a href="showbugs.html">iOS Bugs</a> </li>
+                        <li><a href="showbugs.html">Windows Bugs</a> </li>
+                        <li><a href="addbugs.html">Insert Bug</a> </li>
+                    </ul>
 
-    <fieldset>
+                </nav>
 
-    <form>
+            </section>
+            <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <label for="bugname">Bug Name</label>
-        <input required type="text" id="bugname">
-    <br>
-        <label for="bugsummary">Bug Summary</label>
-        <textarea required id="bugsummary"></textarea>
-    <br>
-        <label for="bugcategory">Bug Category</label>
-        <input required type="text" id="bugcategory">
-    <br>
-    <br>
-        <input type="submit" value="Submit" id="submit">
+            <section class="container-content" id="content-addbugs">
 
-    </form>
+                <form>
 
-    </fieldset>
+                    <label for="bugname">Bug Name</label>
+                    <input required type="text" id="bugname">
+                <br>
+                    <label for="bugsummary">Bug Summary</label>
+                    <textarea required id="bugsummary"></textarea>
+                <br>
+                    <label for="bugcategory">Bug Category</label>
+                    <input required type="text" id="bugcategory">
+                <br>
+                <br>
+                    <input type="submit" value="Submit" id="submit">
+
+                </form>
+
+            </section>
+
+        </section>
 
 </main>
 <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 <!-- (START OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<fieldset id="filedsetfooter">
-
     <footer>
-        <p>
-            Designed by [Dineshan Kannan 2016]
-        </p>
-    </footer>
 
-</fieldset>
+        <section class="container" id="footer">
+
+            <p>
+                Designed by [Dineshan Kannan 2016]
+            </p>
+
+        </section>
+
+    </footer>
 <!-- (END OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 </body>
