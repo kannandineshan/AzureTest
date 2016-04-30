@@ -129,7 +129,7 @@ function getbugssummary(){
         <hr>
             <div class="showbugs">
 
-                <?php getbugs();?>
+                <?php getbugsname();?>
 
             </div>
 
