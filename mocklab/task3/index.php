@@ -1,12 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dinesh
- * Date: 30/04/2016
- * Time: 20:21
- */
 
-include ("assests/PHP/PHPfunctions.php");
+
+include("assets/PHP/PHPfunctions.php");
 
 ?>
 
@@ -20,7 +15,7 @@ include ("assests/PHP/PHPfunctions.php");
     <title>Index</title>
 
     <!-- - CSS Stylesheet- -->
-    <link rel="stylesheet" href="assests/CSS/css.css" type="text/css">
+    <link rel="stylesheet" href="assets/CSS/css.css" type="text/css">
 
 </head>
 <!-- - [END OF HEAD] ============================================================================================= -->
@@ -33,12 +28,11 @@ include ("assests/PHP/PHPfunctions.php");
 <header>
     <section class="container" id="head">
 
-        <section class="headercontainer"><img id="logo" src="assests/images/logo.png"></section>
-        <section class="headercontainer">
-            <h1>BugTracker</h1>
-            <h3>Keeping track of all the pesky little bugs</h3>
-            <h3><?php getheader(); ?></h3>
-        </section>
+        <?php
+
+        include("assets/HTML/header.php");
+
+        ?>
 
     </section>
 </header>
@@ -53,20 +47,13 @@ include ("assests/PHP/PHPfunctions.php");
 
 
         <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-        <section class="container-nav" id="nav-index">
+        <section class="container-nav" id="nav-showbugs">
 
-            <nav>
+            <?php
 
-                <ul>
-                    <li><a href="index.php?header=Home">Home</a> </li>
-                    <li><a href="showBugs.php?header=All Bugs">All Bug Items</a> </li>
-                    <li><a href="showBugs.php?bugCategory=Android&header=Android Bugs">Android Bugs</a> </li>
-                    <li><a href="showBugs.php?bugCategory=iOS&header=iOS Bugs">iOS Bugs</a> </li>
-                    <li><a href="showBugs.php?bugCategory=Windows&header=Windows Bugs">Windows Bugs</a> </li>
-                    <li><a href="addbugs.php?header=Add Bug">Insert Bug</a> </li>
-                </ul>
+            include("assets/HTML/navigation.php");
 
-            </nav>
+            ?>
 
         </section>
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -93,9 +80,11 @@ include ("assests/PHP/PHPfunctions.php");
 
     <section class="container" id="footer">
 
-        <p>
-            Designed by [Dineshan Kannan 2016]
-        </p>
+        <?php
+
+        include("assets/HTML/footer.php");
+
+        ?>
 
     </section>
 
