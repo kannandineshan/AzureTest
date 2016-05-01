@@ -53,10 +53,10 @@
 
             <nav>
                 <ul>
-                    <li><a href="showBugs.php?category=*">All Bug Items</a> </li>
-                    <li><a href="showBugs.php?category=Android">Android Bugs</a> </li>
-                    <li><a href="showBugs.php?category=iOS">iOS Bugs</a> </li>
-                    <li><a href="showBugs.php?category=Windows">Windows Bugs</a> </li>
+                    <li><a href="showBugs.php?bugCategory=*">All Bug Items</a> </li>
+                    <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
+                    <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>
+                    <li><a href="showBugs.php?bugCategory=Windows">Windows Bugs</a> </li>
                     <li><a href="addbugs.php">Insert Bug</a> </li>
                 </ul>
 
