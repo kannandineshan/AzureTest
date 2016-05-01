@@ -74,7 +74,7 @@ function getallbugsdetails(){
 
             <nav>
                 <ul>
-                    <li><a href="showBugs.php?bugCategory=*">All Bug Items</a> </li>
+                    <li><a href="showBugs.php?bugCategory *">All Bug Items</a> </li>
                     <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=Windows">Windows Bugs</a> </li>
