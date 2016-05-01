@@ -95,6 +95,7 @@ function getallbugsdetails(){
                     if(mysqli_num_rows($result)>0){
 
                         $counter = 0;
+
                         while ($row=  mysqli_fetch_array($result)) {
 
                             $counter++;
