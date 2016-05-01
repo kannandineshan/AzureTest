@@ -1,4 +1,4 @@
-<section class="headercontainer"><img id="logo" src="assests/images/logo.png"></section>
+<section class="headercontainer"><img id="logo" src="assets/images/logo.png"></section>
 <section class="headercontainer">
     <h1>BugTracker</h1>
     <h3>Keeping track of all the pesky little bugs</h3>
