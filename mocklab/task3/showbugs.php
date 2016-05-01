@@ -9,14 +9,14 @@
 
 function getallbugsdetails(){
 
-    $bugCategory = $_GET["bugCategory"];
-
     include("connection.php");
+
+    $bugCategory = $_GET["bugCategory"];
 
 
     if($bugCategory == null){
 
-        $sql = "SELECT * FROM bugs ORDER BY bugName";
+        $sql = "SELECT * FROM bugs";
 
         $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
