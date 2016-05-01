@@ -3,8 +3,11 @@
  * Created by PhpStorm.
  * User: Dinesh
  * Date: 30/04/2016
- * Time: 20:24
+ * Time: 20:21
  */
+
+include ("assests/PHP/PHPfunctions.php");
+
 ?>
 
 
@@ -17,7 +20,7 @@
     <title>Add Bugs</title>
 
     <!-- - CSS Stylesheet- -->
-    <link rel="stylesheet" href="assests/css.css" type="text/css">
+    <link rel="stylesheet" href="assests/CSS/css.css" type="text/css">
 
 </head>
 <!-- - [END OF HEAD] ============================================================================================= -->
@@ -53,12 +56,12 @@
 
             <nav>
                 <ul>
-                    <li><a href="index.php">Home</a> </li>
-                    <li><a href="showBugs.php">All Bug Items</a> </li>
-                    <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
-                    <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>
-                    <li><a href="showBugs.php?bugCategory=Windows">Windows Bugs</a> </li>
-                    <li><a href="addbugs.php">Insert Bug</a> </li>
+                    <li><a href="index.php?header=Home">Home</a> </li>
+                    <li><a href="showBugs.php?header=All Bugs">All Bug Items</a> </li>
+                    <li><a href="showBugs.php?bugCategory=Android&header=Android">Android Bugs</a> </li>
+                    <li><a href="showBugs.php?bugCategory=iOS&header=iOS">iOS Bugs</a> </li>
+                    <li><a href="showBugs.php?bugCategory=Windows&header=Windows">Windows Bugs</a> </li>
+                    <li><a href="addbugs.php?header=Add Bug">Insert Bug</a> </li>
                 </ul>
 
             </nav>
