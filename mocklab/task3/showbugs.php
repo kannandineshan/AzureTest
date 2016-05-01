@@ -90,7 +90,7 @@ function getallbugsdetails(){
 
                 <?php
 
-                    $result = getAllRegisteredUsers();
+                    $result = getallbugsdetails();
 
                     if(mysqli_num_rows($result)>0){
 
