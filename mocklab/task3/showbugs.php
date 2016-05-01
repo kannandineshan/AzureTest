@@ -13,7 +13,7 @@ function getallbugsdetails(){
 
     include("connection.php");
 
-    $sql = "SELECT * FROM bugs WHERE bugCategory = $bugCategory";
+    $sql = "SELECT * FROM bugs WHERE bugCategory = '$bugCategory'";
 
     $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
