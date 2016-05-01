@@ -53,6 +53,7 @@
 
             <nav>
                 <ul>
+                    <li><a href="index.php">Home</a> </li>
                     <li><a href="showBugs.php">All Bug Items</a> </li>
                     <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>

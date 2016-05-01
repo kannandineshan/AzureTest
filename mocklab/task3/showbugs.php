@@ -71,6 +71,7 @@ function getallbugsdetails(){
         <section class="headercontainer">
             <h1>BugTracker</h1>
             <h3>Keeping track of all the pesky little bugs</h3>
+            <h3><?php echo $row['bugCategory']; ?>Bugs</h3>
         </section>
 
     </section>
@@ -89,6 +90,7 @@ function getallbugsdetails(){
 
             <nav>
                 <ul>
+                    <li><a href="index.php">Home</a> </li>
                     <li><a href="showBugs.php">All Bug Items</a> </li>
                     <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>
