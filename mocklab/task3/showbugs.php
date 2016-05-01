@@ -13,6 +13,20 @@ function getallbugsdetails(){
 
     include("connection.php");
 
+
+    if($bugCategory == "ALL"){
+
+    $sql = "SELECT * FROM bugs ORDER BY bugName";
+
+    $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
+    $result = mysqli_query($mysqli,$sql);
+
+    $mysqli->close();
+
+    return $result;
+}else{
+
     $sql = "SELECT * FROM bugs WHERE bugCategory = '$bugCategory'";
 
     $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
@@ -22,6 +36,7 @@ function getallbugsdetails(){
     $mysqli->close();
 
     return $result;
+    }
 }
 
 
@@ -74,7 +89,7 @@ function getallbugsdetails(){
 
             <nav>
                 <ul>
-                    <li><a href="showBugs.php?bugCategory*">All Bug Items</a> </li>
+                    <li><a href="showBugs.php?bugCategory=All">All Bug Items</a> </li>
                     <li><a href="showBugs.php?bugCategory=Android">Android Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=iOS">iOS Bugs</a> </li>
                     <li><a href="showBugs.php?bugCategory=Windows">Windows Bugs</a> </li>
