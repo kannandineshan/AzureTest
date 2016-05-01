@@ -116,7 +116,7 @@ function getallbugsdetails(){
                             <section class="title">Bug Summary:</section> <?php echo $row['bugSummary']; ?>
 
                             <br><br>
-
+                            <hr>
 
                 <?php
 
