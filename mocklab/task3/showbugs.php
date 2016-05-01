@@ -7,51 +7,21 @@
  */
 
 
-function getbugsname(){
+function getallbugsdetails(){
 
     include("connection.php");
 
-    $sql = "SELECT bugName FROM bugs";  //query for getting name
+    $sql = "SELECT * FROM bugs ORDER BY bugName";
 
-    $result = mysqli_query($db,$sql);
+    $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-    $row = $result->fetch_array();
+    $result = mysqli_query($mysqli,$sql);
 
-    $bugname = $row['bugName'];
+    $mysqli->close();
 
-    echo "{$bugname}";   //the function prints the name with a space before and an exclamation mark after it
+    return $result;
 }
 
-function getbugscategory(){
-
-    include("connection.php");
-
-    $sql = "SELECT bugCategory FROM bugs";  //query for getting name
-
-    $result = mysqli_query($db,$sql);
-
-    $row = $result->fetch_array();
-
-    $bugCategory = $row['bugCategory'];
-
-
-    echo "{$bugCategory}";   //the function prints the name with a space before and an exclamation mark after it
-}
-
-function getbugssummary(){
-
-    include("connection.php");
-
-    $sql = "SELECT bugSummary FROM bugs";  //query for getting name
-
-    $result = mysqli_query($db,$sql);
-
-    $row = $result->fetch_array();
-
-    $bugSummary = $row['bugSummary'];
-
-    echo "{$bugSummary}";   //the function prints the name with a space before and an exclamation mark after it
-}
 
 
 
@@ -108,7 +78,6 @@ function getbugssummary(){
                     <li><a href="showbugs.php">Windows Bugs</a> </li>
                     <li><a href="addbugs.php">Insert Bug</a> </li>
                 </ul>
-
             </nav>
 
         </section>
@@ -117,32 +86,50 @@ function getbugssummary(){
 
         <section class="container-content" id="content-showbugs">
 
-            <section class="showbugs">
 
-                <section class="title"> Bug Name:</section> <?php getbugsname();?>
 
-                <br><br>
+                <?php
 
-                <section class="title"> Bug Category:</section> <?php getbugscategory();?>
+                    $result = getAllRegisteredUsers();
 
-                <br><br>
+                    if(mysqli_num_rows($result)>0){
 
-                <section class="title">Bug Summary:</section> <?php getbugssummary();?>
+                        $counter = 0;
+                        while ($row=  mysqli_fetch_array($result)) {
 
-                <br><br>
+                            $counter++;
+                ?>
 
-            </div>
-        <hr>
-            <div class="showbugs">
 
-                <?php getbugsname();?>
+                            <section class="title"> Bug Number:</section><?php echo $counter; ?>
 
-            </div>
+                            <br><br>
+
+                            <section class="title"> Bug Name:</section> <?php echo $row['bugName']; ?>
+
+                            <br><br>
+
+                            <section class="title"> Bug Category:</section> <?php echo $row['bugCategory']; ?>
+
+                            <br><br>
+
+                            <section class="title">Bug Summary:</section> <?php echo $row['bugSummary']; ?>
+
+                            <br><br>
+
+
+                <?php
+
+                        }//end of for loop
+                    }//end if statement
+                ?>
+
 
         </section>
 
 
     </section>
+
 </main>
 <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
