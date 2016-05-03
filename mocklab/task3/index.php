@@ -8,89 +8,92 @@ include("assets/PHP/PHPfunctions.php");
 
 <!DOCTYPE html>
 <html lang="en">
+
 <!-- - [START OF HEAD] ============================================================================================= -->
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
 
-    <title>Index</title>
+        <title>Index</title>
 
-    <!-- - CSS Stylesheet- -->
-    <link rel="stylesheet" href="assets/CSS/css.css" type="text/css">
+        <!-- - CSS Stylesheet- -->
+        <link rel="stylesheet" href="assets/CSS/css.css" type="text/css">
 
-</head>
-<!-- - [END OF HEAD] ============================================================================================= -->
-
-
-<!-- - [START OF BODY] ============================================================================================= -->
-<body>
-
-<!-- (START OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<header>
-    <section class="container" id="head">
-
-        <?php
-
-        include("assets/HTML/header.php");
-
-        ?>
-
-    </section>
-</header>
-<!-- (END OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    </head>
+    <!-- - [END OF HEAD] =========================================================================================== -->
 
 
+    <!-- - [START OF BODY] ========================================================================================= -->
+    <body>
 
-<!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<main>
-
-    <section class="container" id="main">
-
-
-        <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-        <section class="container-nav" id="nav-showbugs">
+    <!-- (START OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <header>
+        <section class="container" id="head">
 
             <?php
 
-            include("assets/HTML/navigation.php");
+            include("assets/HTML/header.php");
 
             ?>
 
         </section>
-        <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    </header>
+    <!-- (END OF HEADER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <section class="container-content" id="content-index">
 
-            <p>
-                Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
-                In vehicula tempor est, vitae fringilla metus laoreet ut.
-                Fusce iaculis eu diam congue tempus.
-                Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
-            </p>
+
+    <!-- (START OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <main>
+
+        <section class="container" id="main">
+
+
+            <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <section class="container-nav" id="nav-showbugs">
+
+                <?php
+
+                include("assets/HTML/navigation.php");
+
+                ?>
+
+            </section>
+            <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+            <section class="container-content" id="content-index">
+
+                <p>
+                    Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
+                    In vehicula tempor est, vitae fringilla metus laoreet ut.
+                    Fusce iaculis eu diam congue tempus.
+                    Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend
+                    placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
+                </p>
+
+            </section>
+
 
         </section>
 
+    </main>
+    <!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    </section>
+    <!-- (START OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <footer>
 
-</main>
-<!-- (END OF MAIN) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <section class="container" id="footer">
 
-<!-- (START OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<footer>
+            <?php
 
-    <section class="container" id="footer">
+            include("assets/HTML/footer.php");
 
-        <?php
+            ?>
 
-        include("assets/HTML/footer.php");
+        </section>
 
-        ?>
+    </footer>
+    <!-- (END OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-    </section>
+    </body>
+    <!-- - [END OF BODY] =========================================================================================== -->
 
-</footer>
-<!-- (END OF FOOTER) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-</body>
-<!-- - [END OF BODY] ============================================================================================= -->
 </html>
