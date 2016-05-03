@@ -1,4 +1,4 @@
-<?php
+ <?php
 
 	//GET when accessed through URL
 	if($_SERVER['REQUEST_METHOD']==='GET'){
