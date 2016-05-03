@@ -23,6 +23,7 @@ body{
 
 .bugitem{
     display: flex;
+    flex-direction: column;
 }
 
 .container-nav{
