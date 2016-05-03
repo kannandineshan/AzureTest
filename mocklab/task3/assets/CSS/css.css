@@ -19,21 +19,6 @@ body{
 .container-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-
-.bugitems{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.bug{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: bold;
 }
 
 .container-nav{
@@ -53,6 +38,11 @@ li a {
     padding: 0 10px 10px 10px;
     text-decoration: none;
     margin: 5px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 form{
