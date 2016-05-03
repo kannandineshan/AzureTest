@@ -77,7 +77,8 @@ li a {
     padding: 0px 30px 0px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content{
