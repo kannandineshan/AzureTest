@@ -72,18 +72,20 @@ include("assets/PHP/PHPfunctions.php");
 
                             $counter++;
                 ?>
-                <section class="bugitem">
-                            <section class="title"> Bug Number:</section><?php echo $counter; ?>
+                            <section class="bugitem">
+
+                                <section class="title"> Bug Number:</section><?php echo $counter; ?>
 
 
-                            <section class="title"> Bug Name:</section> <?php echo $row['bugName']; ?>
+                                <section class="title"> Bug Name:</section> <?php echo $row['bugName']; ?>
 
 
-                            <section class="title"> Bug Category:</section><?php echo $row['bugCategory']; ?>
+                                <section class="title"> Bug Category:</section><?php echo $row['bugCategory']; ?>
 
 
-                            <section class="title"> Bug Summary:</section> <?php echo $row['bugSummary']; ?>
-                </section>
+                                <section class="title"> Bug Summary:</section> <?php echo $row['bugSummary']; ?>
+
+                            </section>
 
                 <?php
 
