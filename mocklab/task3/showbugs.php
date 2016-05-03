@@ -76,13 +76,13 @@ include("assets/PHP/PHPfunctions.php");
                             <section class="title"> Bug Number:</section><?php echo $counter; ?>
 
 
-                            <section class="title"> </section>/section> <?php echo $row['bugName']; ?>
+                            <section class="title"> Bug Name:</section> <?php echo $row['bugName']; ?>
 
 
-                            <section class="titl</section>tegory:</section> <?php echo $row['bugCategory']; ?>
+                            <section class="title"> Bug Category:</section><?php echo $row['bugCategory']; ?>
 
 
-                            <section c</section>e">Bug Summary:</section> <?php echo $row['bugSummary']; ?>
+                            <section class="title"> Bug Summary:</section> <?php echo $row['bugSummary']; ?>
 
                 <?php
 
