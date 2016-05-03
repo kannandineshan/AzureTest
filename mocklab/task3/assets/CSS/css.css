@@ -10,18 +10,20 @@ body{
     max-width: 200px;
 }
 
+/* header, main and footer*/
 .container{
     border: dotted;
     padding: 10px 10px 10px 10px;
     display: flex;
 }
 
+/* contents section of main*/
 .container-content{
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
 }
 
+/* navigation section of main*/
 .container-nav{
     border: dotted;
     font-size: 20px;
