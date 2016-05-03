@@ -18,7 +18,7 @@ body{
 
 .container-content{
     display: flex;
-
+    flex-direction: column;
 }
 
 .container-nav{
