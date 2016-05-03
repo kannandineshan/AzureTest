@@ -73,23 +73,16 @@ include("assets/PHP/PHPfunctions.php");
                             $counter++;
                 ?>
 
-
                             <section class="title"> Bug Number:</section><?php echo $counter; ?>
 
-                            <br><br>
 
                             <section class="title"> Bug Name:</section> <?php echo $row['bugName']; ?>
 
-                            <br><br>
 
                             <section class="title"> Bug Category:</section> <?php echo $row['bugCategory']; ?>
 
-                            <br><br>
 
                             <section class="title">Bug Summary:</section> <?php echo $row['bugSummary']; ?>
-
-                            <br><br>
-                            <hr>
 
                 <?php
 
