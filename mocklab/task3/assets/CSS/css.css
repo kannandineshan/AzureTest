@@ -1,3 +1,5 @@
+
+/* whole page ========================================================================================================*/
 body{
     max-width: 800px;
     margin-left: auto;
@@ -6,31 +8,19 @@ body{
     padding: 10px 10px 10px 10px;
 }
 
-#logo{
-    max-width: 200px;
-}
-
-/* header, main and footer*/
+/* header, main and footer =======================================================================*/
 .container{
     border: dotted;
     padding: 10px 10px 10px 10px;
     display: flex;
 }
 
-/* contents section of main*/
-.container-content{
-    display: flex;
-    flex-direction: column;
-    padding: 30px 30px 30px 30px;
-    background-color: red;
+/* header section  ____________________________________________________*/
+#logo{
+    max-width: 200px;
 }
 
-.bugitem{
-
-    background-color: #4CAF50;
-}
-
-/* navigation section of main*/
+/* navigation section of main ________________________________________*/
 .container-nav{
     border: dotted;
     font-size: 20px;
@@ -50,21 +40,39 @@ li a {
     margin: 5px;
 }
 
+/* contents section of main _________________________________________*/
+.container-content{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 30px;
+    background-color: red;
+}
+
+/* content-index ----------------*/
+p{
+    padding: 0 10px 10px 10px;
+}
+
+/* content-showbugs ----------------*/
+.bugitem{
+
+    background-color: #4CAF50;
+}
+
 .title{
     font-size: 20px;
     font-weight: bold;
 
 }
 
+/* content-addbugs ----------------*/
 form{
     display: flex;
     flex-direction: column;
 }
 
-.category{
-    font-style: italic;
+label{
+    font-size: 20px;
+    font-weight: bold;
 }
 
-p{
-    padding: 0 10px 10px 10px;
-}
