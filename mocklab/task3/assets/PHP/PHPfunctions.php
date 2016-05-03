@@ -25,22 +25,19 @@ function getbugsdetails(){
 
         $sql = "SELECT * FROM bugs";
 
-        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+        $result = mysqli_query($db,$sql);
 
-        $result = mysqli_query($mysqli,$sql);
-
-        $mysqli->close();
+        $db->close();
 
         return $result;
+
     }else{
 
         $sql = "SELECT * FROM bugs WHERE bugCategory = '$bugCategory'";
 
-        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+        $result = mysqli_query($db,$sql);
 
-        $result = mysqli_query($mysqli,$sql);
-
-        $mysqli->close();
+        $db->close();
 
         return $result;
     }
