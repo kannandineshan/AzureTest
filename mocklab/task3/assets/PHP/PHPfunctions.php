@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Dinesh
- * Date: 01/05/2016
- * Time: 22:18
- */
+include("connection.php");
+
 
 function getheader(){
 
@@ -16,7 +12,7 @@ function getheader(){
 
 function getbugsdetails(){
 
-    include("connection.php");
+
 
     $bugCategory = $_GET["bugCategory"];
 
