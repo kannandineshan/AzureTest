@@ -65,7 +65,11 @@ include("assets/PHP/PHPfunctions.php");
                 <section class="content">
 
                     <p>
-                        Suspendisse
+                        Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
+                        In vehicula tempor est, vitae fringilla metus laoreet ut.
+                        Fusce iaculis eu diam congue tempus.
+                        Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend
+                        placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
                     </p>
 
                 </section>
