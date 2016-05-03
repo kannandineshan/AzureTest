@@ -20,7 +20,7 @@ body{
 /* contents section of main*/
 .container-content{
     display: flex;
-    flex-direction: column;
+
     padding: 30px 30px 30px 30px;
     background-color: red;
 }
