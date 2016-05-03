@@ -18,7 +18,10 @@ body{
 
 .container-content{
     border: dotted;
-padding: 10px 40px 10px 40px;;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-nav{
