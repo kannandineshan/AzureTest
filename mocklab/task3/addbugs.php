@@ -57,23 +57,27 @@ include("assets/PHP/PHPfunctions.php");
         </section>
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <section class="container-content" id="content-addbugs">
+        <section class="container-content">
 
-            <form>
+            <section class="content">
 
-                <label for="bugname">Bug Name</label>
-                <input required type="text" id="bugname">
-                <br>
-                <label for="bugsummary">Bug Summary</label>
-                <textarea required id="bugsummary"></textarea>
-                <br>
-                <label for="bugcategory">Bug Category</label>
-                <input required type="text" id="bugcategory">
-                <br>
-                <br>
-                <input type="submit" value="Submit" id="submit">
+                <form>
 
-            </form>
+                    <label for="bugname">Bug Name</label>
+                    <input required type="text" id="bugname">
+                    <br>
+                    <label for="bugsummary">Bug Summary</label>
+                    <textarea required id="bugsummary"></textarea>
+                    <br>
+                    <label for="bugcategory">Bug Category</label>
+                    <input required type="text" id="bugcategory">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit" id="submit">
+
+                </form>
+
+            </section>
 
         </section>
 

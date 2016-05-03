@@ -56,7 +56,7 @@ include("assets/PHP/PHPfunctions.php");
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 
-        <section class="container-content" id="content-showbugs">
+        <section class="container-content">
 
 
 
@@ -72,7 +72,7 @@ include("assets/PHP/PHPfunctions.php");
 
                             $counter++;
                 ?>
-                            <section class="bugitem">
+                            <section class="content">
 
                                 <section class="title"> Bug Number:</section><?php echo $counter; ?>
 

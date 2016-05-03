@@ -68,16 +68,22 @@ li a {
 
 
 
-/*                                              [contents section of main]                                            */
+/*                                              [content section of main]                                             */
 
 
-/*================================ whole main* ================================*/
+/*================================ whole content ================================*/
 
 .container-content{
     display: flex;
     flex-direction: column;
     padding: 0px 30px 0px 30px;
     background-color: red;
+}
+
+.content{
+    background-color: #4CAF50;
+    padding: 10px 0px 30px 0px;
+    border-bottom: solid;
 }
 
 /*---------------------------------content-index -----------------------------*/
@@ -87,12 +93,6 @@ p{
 }
 
 /*------------------------------- content-showbugs --------------------------*/
-
-.bugitem{
-    background-color: #4CAF50;
-    padding: 10px 0px 30px 0px;
-    border-bottom: solid;
-}
 
 .title{
     font-size: 20px;
