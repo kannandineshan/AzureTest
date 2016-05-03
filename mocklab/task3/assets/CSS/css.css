@@ -22,10 +22,12 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px 30px 30px 30px;
+    background-color: red;
 }
 
 .bugitem{
     padding: 30px 30px 30px 30px;
+    background-color: #4CAF50;
 }
 
 /* navigation section of main*/
