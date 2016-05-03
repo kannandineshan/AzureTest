@@ -22,10 +22,19 @@ body{
     justify-content: space-between;
 }
 
-.bugitem{
+.bugitems{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.bug{
+    font-size: 20px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-content;
 }
 
 .container-nav{
@@ -45,11 +54,6 @@ li a {
     padding: 0 10px 10px 10px;
     text-decoration: none;
     margin: 5px;
-}
-
-.title{
-    font-size: 20px;
-    font-weight: bold;
 }
 
 form{
