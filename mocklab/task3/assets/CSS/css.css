@@ -24,6 +24,10 @@ body{
     padding: 30px 30px 30px 30px;
 }
 
+.bugitem{
+    padding: 30px 30px 30px 30px;
+}
+
 /* navigation section of main*/
 .container-nav{
     border: dotted;
