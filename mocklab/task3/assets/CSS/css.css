@@ -78,6 +78,7 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
 }
 
 .content{
