@@ -86,6 +86,7 @@ include("assets/PHP/PHPfunctions.php");
                                 <section class="title"> Bug Summary:</section> <?php echo $row['bugSummary']; ?>
 
                             </section>
+                            <br>
 
                 <?php
 
