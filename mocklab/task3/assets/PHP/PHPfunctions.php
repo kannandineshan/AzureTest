@@ -14,7 +14,7 @@ function getheader(){
 }
 
 
-function getallbugsdetails(){
+function getbugsdetails(){
 
     include("connection.php");
 

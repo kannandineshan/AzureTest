@@ -60,7 +60,7 @@ include("assets/PHP/PHPfunctions.php");
 
                 <?php
 
-                    $result = getallbugsdetails();
+                    $result = getbugsdetails();
 
                     if(mysqli_num_rows($result)>0){
 
