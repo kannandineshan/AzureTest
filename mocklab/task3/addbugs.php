@@ -57,6 +57,7 @@ include("assets/PHP/PHPfunctions.php");
         </section>
         <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+        <!-- (START OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
         <section class="container-content">
 
             <section class="content">
@@ -80,6 +81,7 @@ include("assets/PHP/PHPfunctions.php");
             </section>
 
         </section>
+        <!-- (END OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     </section>
 

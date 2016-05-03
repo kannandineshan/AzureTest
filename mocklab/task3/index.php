@@ -47,7 +47,7 @@ include("assets/PHP/PHPfunctions.php");
         <section class="container" id="main">
 
 
-            <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <!-- (START OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - -->
             <section class="container-nav" id="nav-showbugs">
 
                 <?php
@@ -57,24 +57,21 @@ include("assets/PHP/PHPfunctions.php");
                 ?>
 
             </section>
-            <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+            <!-- (END OF NAV) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
+            <!-- (START OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
             <section class="container-content">
 
                 <section class="content">
 
                     <p>
-                        Suspendisse non lacinia lectus. Fusce pharetra eleifend velit, a vulputate sapien eleifend et.
-                        In vehicula tempor est, vitae fringilla metus laoreet ut.
-                        Fusce iaculis eu diam congue tempus.
-                        Cras consequat mi id eros consequat, sed accumsan ipsum facilisis. Cras semper, lorem et eleifend
-                        placerat, lorem ex varius eros, at scelerisque lectus lacus nec risus.
+                        Suspendisse
                     </p>
 
                 </section>
 
             </section>
-
+            <!-- (END OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
         </section>
 
