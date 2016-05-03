@@ -59,7 +59,7 @@ include("assets/PHP/PHPfunctions.php");
         <section class="container-content" id="content-showbugs">
 
 
-
+            <section class="bugitem">
                 <?php
 
                     $result = getallbugsdetails();
@@ -72,7 +72,7 @@ include("assets/PHP/PHPfunctions.php");
 
                             $counter++;
                 ?>
-                <section class="bugitem">
+
                             <section class="title"> Bug Number:</section><?php echo $counter; ?>
 
 
@@ -83,13 +83,13 @@ include("assets/PHP/PHPfunctions.php");
 
 
                             <section class="title"> Bug Summary:</section> <?php echo $row['bugSummary']; ?>
-                </section>
 
                 <?php
 
                         }//end of for loop
                     }//end if statement
                 ?>
+            </section>
 
         </section>
 
