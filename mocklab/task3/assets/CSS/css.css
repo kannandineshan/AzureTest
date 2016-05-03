@@ -21,6 +21,10 @@ body{
     flex-direction: column;
 }
 
+.bugitem{
+    display: flex;
+}
+
 .container-nav{
     border: dotted;
     font-size: 20px;
