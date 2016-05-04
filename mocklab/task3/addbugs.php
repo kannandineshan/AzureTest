@@ -59,26 +59,38 @@ include("assets/PHP/PHPfunctions.php");
 
         <!-- (START OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
         <section class="container-content">
+            <?php
+                if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            ?>
+                    <section class="content">
 
-            <section class="content">
+                        <form action="" method="post">
 
-                <form action="" method="post">
+                            <label for="bugname">Bug Name</label>
+                            <input required type="text" id="bugname" name="bugname">
+                            <br>
+                            <label for="bugsummary">Bug Summary</label>
+                            <textarea required id="bugsummary" name="bugsummary"></textarea>
+                            <br>
+                            <label for="bugcategory">Bug Category</label>
+                            <input required type="text" id="bugcategory" name="bugcategory">
+                            <br>
+                            <br>
+                            <input type="submit" value="Submit" id="submit">
 
-                    <label for="bugname">Bug Name</label>
-                    <input required type="text" id="bugname" name="bugname">
-                    <br>
-                    <label for="bugsummary">Bug Summary</label>
-                    <textarea required id="bugsummary" name="bugsummary"></textarea>
-                    <br>
-                    <label for="bugcategory">Bug Category</label>
-                    <input required type="text" id="bugcategory" name="bugcategory">
-                    <br>
-                    <br>
-                    <input type="submit" value="Submit" id="submit">
+                        </form>
 
-                </form>
+                    </section>
+            <?php
+                }elseif ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                    addbugsdetails();
 
-            </section>
+                }else{
+                    header("Location: addbugs.php");
+                }
+
+            ?>
+
 
         </section>
         <!-- (END OF CONTENT) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->

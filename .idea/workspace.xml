@@ -1,1071 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/Scripts/Conn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/Scripts/MySQLDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/Scripts/userLogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/Scripts/userRegistration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/adminer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/adminhome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/createlogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/createuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/cssadminpage/datePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/cssadminpage/pro_dropline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/cssadminpage/pro_dropline_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/cssadminpage/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/db_connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/delete-user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/edit-user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/bg_related_act.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/bubble_inner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/bubble_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/bubble_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/choose-file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/error_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/error_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_inp_error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_reset.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_select_small.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_submit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/form_textarea.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/header_related_act.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/icon_calendar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/icon_edit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/icon_list_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/icon_minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/icon_plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/lines_dotted_short.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_dark_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_dark_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_dark_round.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_light_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_light_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/step_light_round.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/createlogin/upload_file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/BFCfooterlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/BFClogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/border_bit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/cal_th_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/cal_top_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/cal_top_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/content_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/corner_bottom_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/corner_bottom_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/corner_top_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/corner_top_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/face-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/face-pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/BFCfooterlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/BFClogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/Copy of pro_line_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/account_drop_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/account_line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/back_0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/back_1x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/border_bit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/cal_th_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/cal_top_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/cal_top_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/content_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/corner_bottom_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/corner_bottom_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/corner_top_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/corner_top_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/divider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/icon_acc_inbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/icon_acc_personal.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/icon_acc_projects.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/icon_acc_settings.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/icon_acc_stats.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/nav_logout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/nav_myaccount.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/pro_line_0x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/pro_line_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/pro_line_2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/side_shadowleft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/side_shadowright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/top_search_btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/top_search_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/top_search_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/year_next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/nav/year_prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/side_shadowleft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/side_shadowright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/top_search_btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/top_search_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/top_search_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/year_next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/imagesadminpage/shared/year_prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/Copy of custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/Copy.of.custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery-1.4.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.datePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.filestyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.pngFix.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.selectbox-0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.selectbox-0.5_style_2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.selectbox-0.5_style_3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/jquery.usermode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/ui.checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jsadminpage/jquery/ui.core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/jscreatelogin/randompassword.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/logoutvolunteer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/same_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/submitsurveyanswers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/headers.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/help-resources.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/including-the-files.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/installing.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/introduction.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/japanese.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/messages.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/overview.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/plugins.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/sending.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/uml/Encoders.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/uml/Mime.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/doc/uml/Transports.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/DependencyException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Encoding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/CommandListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/EventListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/EventObject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/SendEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/SendListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/FileStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Filterable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/InputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/IoException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/MemorySpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/Message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/OutputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Logger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Plugins/Timer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/RfcComplianceException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/SignedMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Spool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/StreamFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/SwiftException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/TransportException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/classes/Swift/Validate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/dependency_maps/cache_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/dependency_maps/message_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/dependency_maps/mime_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/dependency_maps/transport_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/mime_types.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/swift_init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/swift_required.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/swift_required_pear.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/APPS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/CHARSETS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc0821.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc0822.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc1341.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc1521.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc1854.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2015.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2045.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2046.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2047.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2048.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2049.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2183.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2222.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2231.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2234.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2440.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2487.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2554.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2821.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc2822.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc3156.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc3676.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4505.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4616.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4870.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4871.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4880.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc4954.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/rfc5751.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/rfc/whats_where.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/notes/smtp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/IdenticalBinaryConstraint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/StreamCollector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/SwiftMailerSmokeTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/SwiftMailerTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/charsets/iso-8859-1/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/charsets/utf-8/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/charsets/utf-8/three.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/charsets/utf-8/two.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/dkim/dkim.test.priv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/dkim/dkim.test.pub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/files/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/files/swiftmailer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/files/textfile.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/CA.srl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/ca.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/ca.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/create-cert.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/encrypt.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/encrypt.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/encrypt2.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/encrypt2.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/intermediate.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/intermediate.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/sign.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/sign.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/sign2.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/_samples/smime/sign2.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance.conf.php.default" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/AttachmentAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/CharacterReaderFactory/SimpleCharacterReaderFactoryAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Encoder/Base64EncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Encoder/Rfc2231EncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/MessageAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/Base64ContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/MimePartAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/ProcessAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug111Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug118Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug206Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug274Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug34Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug35Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug38Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug518Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug51Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug534Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug71Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/bug/Swift/Bug76Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/fixtures/MimeEntityFixture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/smoke.conf.php.default" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/smoke/Swift/Smoke/BasicSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/ByteStream/ArrayByteStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/DependencyContainerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Encoder/QpEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Encoder/Rfc2231EncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/CommandEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/EventObjectTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/ResponseEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/SendEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/TransportChangeEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/KeyCache/ArrayKeyCacheTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mailer/ArrayRecipientIteratorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/MailerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/MessageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/AttachmentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/QpHeaderEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/DateHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/Headers/UnstructuredHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/SimpleMessageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Mime/SimpleMimeEntityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/AntiFloodPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/BandwidthMonitorPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/Loggers/ArrayLoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/Loggers/EchoLoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/RedirectingPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/ReporterPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterFactoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/CramMd5AuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/EsmtpTransport/ExtensionSupportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/EsmtpTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/MailTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/swiftmailer/tests/unit/Swift/Transport/StreamBufferTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/thankssurvey.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/view2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/view3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_css/volunteerhome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/question6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/surveysummaryandsubmission.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_images/surveyiconnomal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_images/surveyiconsad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_images/surveyiconsmile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_images/tabicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_jquery/modernizr-custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerhome_assets/volunteerhome_jquery/surveybounce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Dinesh/volunteerlogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Scripts/Conn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Scripts/MySQLDao.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Scripts/userLogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/Scripts/userRegistration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/adminer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/adminhome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/createlogin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/createuser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/cssadminpage/datePicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/cssadminpage/pro_dropline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/cssadminpage/pro_dropline_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/cssadminpage/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/db_connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/delete-user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/edit-user.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/bg_related_act.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/bubble_inner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/bubble_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/bubble_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/choose-file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/error_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/error_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_inp_error.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_reset.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_select_small.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_submit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/form_textarea.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/header_related_act.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/icon_calendar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/icon_edit.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/icon_list_arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/icon_minus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/icon_plus.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/lines_dotted_short.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_dark_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_dark_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_dark_round.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_light_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_light_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/step_light_round.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/createlogin/upload_file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/BFCfooterlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/BFClogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/border_bit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/cal_th_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/cal_top_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/cal_top_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/content_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/corner_bottom_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/corner_bottom_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/corner_top_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/corner_top_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/BFCfooterlogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/BFClogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/Copy of pro_line_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/account_drop_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/account_line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/back_0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/back_1x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/border_bit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/cal_th_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/cal_top_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/cal_top_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/checkbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/content_repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/corner_bottom_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/corner_bottom_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/corner_top_left.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/corner_top_right.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/divider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/icon_acc_inbox.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/icon_acc_personal.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/icon_acc_projects.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/icon_acc_settings.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/icon_acc_stats.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/nav_logout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/nav_myaccount.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/pro_line_0x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/pro_line_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/pro_line_2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/repeat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/side_shadowleft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/side_shadowright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/top_search_btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/top_search_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/top_search_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/year_next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/nav/year_prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/side_shadowleft.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/side_shadowright.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/top_search_btn.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/top_search_inp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/top_search_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/year_next.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/imagesadminpage/shared/year_prev.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/Copy of custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/Copy.of.custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/custom_jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery-1.4.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.bind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.datePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.filestyle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.pngFix.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.selectbox-0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.selectbox-0.5_style_2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.selectbox-0.5_style_3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/jquery.usermode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/test" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/ui.checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jsadminpage/jquery/ui.core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/jscreatelogin/randompassword.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/logout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/logoutvolunteer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/new file" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/submitsurveyanswers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/CHANGES" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/headers.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/help-resources.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/including-the-files.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/installing.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/introduction.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/japanese.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/messages.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/overview.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/plugins.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/sending.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/uml/Encoders.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/uml/Mime.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/doc/uml/Transports.graffle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/DependencyException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Encoding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/CommandListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/Event.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/EventListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/EventObject.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/SendEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/SendListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/FileStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Filterable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/InputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/IoException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/MemorySpool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Grammar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/Message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/MimePart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/OutputByteStream.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Logger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Plugins/Timer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/RfcComplianceException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/SignedMessage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Spool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/StreamFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/SwiftException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/TransportException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/classes/Swift/Validate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/dependency_maps/cache_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/dependency_maps/message_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/dependency_maps/mime_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/dependency_maps/transport_deps.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/mime_types.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/preferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/swift_init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/swift_required.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/swift_required_pear.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/APPS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/CHARSETS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/message.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc0821.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc0822.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc1341.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc1521.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc1854.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2015.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2045.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2046.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2047.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2048.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2049.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2183.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2222.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2231.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2234.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2440.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2487.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2554.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2821.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc2822.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc3156.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc3676.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4505.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4616.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4870.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4871.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4880.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc4954.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/rfc5751.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/rfc/whats_where.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/notes/smtp.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/phpunit.xml.dist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/IdenticalBinaryConstraint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/StreamCollector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/SwiftMailerSmokeTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/SwiftMailerTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/charsets/iso-8859-1/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/charsets/utf-8/one.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/charsets/utf-8/three.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/charsets/utf-8/two.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/dkim/dkim.test.priv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/dkim/dkim.test.pub" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/files/data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/files/swiftmailer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/files/textfile.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/CA.srl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/ca.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/ca.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/create-cert.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/encrypt.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/encrypt.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/encrypt2.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/encrypt2.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/intermediate.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/intermediate.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/sign.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/sign.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/sign2.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/_samples/smime/sign2.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance.conf.php.default" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/AttachmentAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/ByteStream/FileByteStreamAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/CharacterReaderFactory/SimpleCharacterReaderFactoryAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/DependencyContainerAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/EmbeddedFileAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Encoder/Base64EncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Encoder/QpEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Encoder/Rfc2231EncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/EncodingAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/KeyCache/ArrayKeyCacheAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/KeyCache/DiskKeyCacheAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/MessageAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/AttachmentAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/Base64ContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/NativeQpContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/PlainContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/ContentEncoder/QpContentEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/EmbeddedFileAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/HeaderEncoder/Base64HeaderEncoderAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/MimePartAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/MimePartAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/AbstractStreamBufferAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/BasicSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/ProcessAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SslSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/TlsSocketAcceptanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug111Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug118Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug206Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug274Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug34Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug35Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug38Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug518Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug51Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug534Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug71Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/bug/Swift/Bug76Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/fixtures/MimeEntityFixture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/smoke.conf.php.default" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/smoke/Swift/Smoke/BasicSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/ByteStream/ArrayByteStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/CharacterReader/GenericFixedWidthReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/CharacterReader/UsAsciiReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/CharacterReader/Utf8ReaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/CharacterStream/ArrayCharacterStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/DependencyContainerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Encoder/QpEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Encoder/Rfc2231EncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/CommandEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/EventObjectTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/ResponseEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/SendEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/SimpleEventDispatcherTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/TransportChangeEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Events/TransportExceptionEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/KeyCache/ArrayKeyCacheTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/KeyCache/SimpleKeyCacheInputStreamTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mailer/ArrayRecipientIteratorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/MailerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/MessageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/AbstractMimeEntityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/AttachmentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/PlainContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/QpContentEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/EmbeddedFileTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/Base64HeaderEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/HeaderEncoder/QpHeaderEncoderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/DateHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/IdentificationHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/MailboxHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/ParameterizedHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/PathHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/Headers/UnstructuredHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/MimePartTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderFactoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/SimpleHeaderSetTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/SimpleMessageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Mime/SimpleMimeEntityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/AntiFloodPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/BandwidthMonitorPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/Loggers/ArrayLoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/Loggers/EchoLoggerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/PopBeforeSmtpPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/RedirectingPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/ReporterPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/Reporters/HitReporterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/Reporters/HtmlReporterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Plugins/ThrottlerPluginTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Signers/DKIMSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Signers/OpenDKIMSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/StreamFilters/ByteArrayReplacementFilterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterFactoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/StreamFilters/StringReplacementFilterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpEventSupportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/CramMd5AuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/LoginAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/PlainAuthenticatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/Esmtp/AuthHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/EsmtpTransport/ExtensionSupportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/EsmtpTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/FailoverTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/MailTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/swiftmailer/tests/unit/Swift/Transport/StreamBufferTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/thankssurvey.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_css/volunteerhome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/question6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_htmlscripts/welcomepage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_images/surveyiconnomal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_images/surveyiconsad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_images/surveyiconsmile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_images/tabicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerhome_assets/volunteerhome_jquery/surveybounce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Master/volunteerlogin.php" afterPath="" />
+    <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/addbugs.php" afterPath="$PROJECT_DIR$/mocklab/task3/addbugs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" afterPath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
     </list>
     <ignored path="AzureTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1087,21 +25,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addbugs.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addbugs.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.923077">
-              <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.84753364">
+              <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+              <folding>
+                <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
+                <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit-user.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/edit-user.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="117.69231">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showbugs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.192308">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0100896">
-              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state vertical-scroll-proportion="-28.423077">
+              <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="36" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <marker date="1462326978920" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
@@ -1112,42 +73,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showbugs.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
+      <file leaf-file-name="createlogin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-47.73077">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/HTML/navigation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocklab/task3/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="29.423077">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="54" />
-              <folding />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
+                <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
+                <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1342,6 +277,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AzureTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AzureTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BefriendAChildTestSurvey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1431,7 +384,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462320470506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5">
+      <created>1462327042092</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1462327042092</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1474,7 +433,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-          <folding />
+          <folding>
+            <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
+            <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1503,22 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="29.423077">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1604,46 +550,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/edit-user.php">
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0874438">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="29.423077">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-71.26923">
-          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.15246637">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
-            <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
-            <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-47.73077">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.923077">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1656,15 +574,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90246636">
+          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/edit-user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="117.69231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
+            <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
+            <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.192308">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0100896">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state vertical-scroll-proportion="-28.423077">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="36" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <marker date="1462326978920" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
             <marker date="1462326978920" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
             <marker date="1462326978920" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.84753364">
+          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+          <folding>
+            <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
+            <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
           </folding>
         </state>
       </provider>
