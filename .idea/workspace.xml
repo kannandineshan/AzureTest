@@ -61,13 +61,13 @@
       <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63789237">
-              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.67600894">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+                <marker date="1462329642486" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462329642486" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462329642486" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
               </folding>
             </state>
           </provider>
@@ -396,7 +396,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462328395369</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5">
+      <created>1462328628020</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1462328628020</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,9 +466,9 @@
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462329642486" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462329642486" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462329642486" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
           </folding>
         </state>
       </provider>
@@ -608,14 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.192308">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.692307">
@@ -627,15 +625,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/showbugs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.192308">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63789237">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.67600894">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462329642486" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462329642486" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462329642486" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
           </folding>
         </state>
       </provider>
