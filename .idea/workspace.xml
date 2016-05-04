@@ -4,7 +4,6 @@
     <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" afterPath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/connection.php" afterPath="$PROJECT_DIR$/mocklab/task3/connection.php" />
     </list>
     <ignored path="AzureTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,24 +55,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33295965">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1462320264949" expanded="true" signature="285:303" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462320264949" expanded="true" signature="511:564" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462320344730" expanded="true" signature="317:335" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462320344730" expanded="true" signature="543:596" placeholder="SELECT * FRO... bugs" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connection.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15246637">
+            <state vertical-scroll-proportion="-5.230769">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
@@ -89,8 +88,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mocklab/task3/showbugs.php" />
-        <option value="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
         <option value="$PROJECT_DIR$/mocklab/task3/connection.php" />
+        <option value="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
       </list>
     </option>
   </component>
@@ -326,7 +325,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462320012367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5">
+      <created>1462320269842</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462320269842</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -387,8 +392,8 @@
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462320264949" expanded="true" signature="285:303" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462320264949" expanded="true" signature="511:564" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462320344730" expanded="true" signature="317:335" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462320344730" expanded="true" signature="543:596" placeholder="SELECT * FRO... bugs" />
           </folding>
         </state>
       </provider>
@@ -425,23 +430,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462320264949" expanded="true" signature="285:303" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462320264949" expanded="true" signature="511:564" placeholder="SELECT * FRO... bugs" />
-          </folding>
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/connection.php">
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15246637">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.33295965">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1462320344730" expanded="true" signature="317:335" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462320344730" expanded="true" signature="543:596" placeholder="SELECT * FRO... bugs" />
+          </folding>
         </state>
       </provider>
     </entry>

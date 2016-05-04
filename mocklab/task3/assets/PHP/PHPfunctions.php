@@ -16,6 +16,8 @@ function getheader(){
 
 function getbugsdetails(){
 
+    include("connection.php");
+
     $bugCategory = $_GET["bugCategory"];
 
 
