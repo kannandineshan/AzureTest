@@ -61,6 +61,5 @@ function addbugsdetails(){
 
     echo "<SCRIPT>alert('New Bug Has Been Added To The Database!!!');</SCRIPT>";
 
-    header("Location: addbugs.php");
 
 }
