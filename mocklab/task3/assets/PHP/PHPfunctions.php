@@ -1,5 +1,5 @@
 <?php
-include("connection.php");
+include ("connection.php");
 
 
 function getheader(){
@@ -15,7 +15,7 @@ function getbugsdetails(){
 
 
     $bugCategory = $_GET["bugCategory"];
-
+    $db="connection.php";
 
     if($bugCategory == null){
 
