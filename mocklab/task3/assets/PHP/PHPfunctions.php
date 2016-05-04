@@ -1,6 +1,10 @@
 <?php
-include ("connection.php");
-
+/**
+ * Created by PhpStorm.
+ * User: Dinesh
+ * Date: 01/05/2016
+ * Time: 22:18
+ */
 
 function getheader(){
 
@@ -12,28 +16,29 @@ function getheader(){
 
 function getbugsdetails(){
 
-
-
     $bugCategory = $_GET["bugCategory"];
-    $db="connection.php";
+
 
     if($bugCategory == null){
 
         $sql = "SELECT * FROM bugs";
 
-        $result = mysqli_query($db,$sql);
+        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-        $db->close();
+        $result = mysqli_query($mysqli,$sql);
+
+        $mysqli->close();
 
         return $result;
-
     }else{
 
         $sql = "SELECT * FROM bugs WHERE bugCategory = '$bugCategory'";
 
-        $result = mysqli_query($db,$sql);
+        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-        $db->close();
+        $result = mysqli_query($mysqli,$sql);
+
+        $mysqli->close();
 
         return $result;
     }
