@@ -46,3 +46,21 @@ function getbugsdetails(){
         return $result;
     }
 }
+
+function addbugsdetails(){
+
+    $bugName = $_POST["bugname"];
+    $bugSummary = $_POST["bugsummary"];
+    $bugCategory = $_POST["bugCategory"];
+
+    $sql = "INSERT INTO `bugs` (`bugID`, `bugName`, `bugCategory`, `bugSummary`) VALUES ('$bugName', '$bugSummary', '$bugCategory')";
+
+    $db = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+
+    $result = mysqli_query($db,$sql) or die("Error: ".$sql."<br>".$db->error);
+
+    echo "<SCRIPT>alert('New Bug Has Been Added To The Database!!!');</SCRIPT>";
+
+    header("Location: addbugs.php");
+
+}

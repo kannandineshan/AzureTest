@@ -62,16 +62,16 @@ include("assets/PHP/PHPfunctions.php");
 
             <section class="content">
 
-                <form>
+                <form action="" method="post">
 
                     <label for="bugname">Bug Name</label>
-                    <input required type="text" id="bugname">
+                    <input required type="text" id="bugname" name="bugname">
                     <br>
                     <label for="bugsummary">Bug Summary</label>
-                    <textarea required id="bugsummary"></textarea>
+                    <textarea required id="bugsummary" name="bugsummary"></textarea>
                     <br>
                     <label for="bugcategory">Bug Category</label>
-                    <input required type="text" id="bugcategory">
+                    <input required type="text" id="bugcategory" name="bugcategory">
                     <br>
                     <br>
                     <input type="submit" value="Submit" id="submit">
