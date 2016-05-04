@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" afterPath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
     </list>
     <ignored path="AzureTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,41 +27,48 @@
       <file leaf-file-name="addbugs.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-              <folding>
-                <marker date="1462330323219" expanded="true" signature="3293:3436" placeholder="..." />
-                <marker date="1462330323219" expanded="true" signature="3338:3425" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82847536">
-              <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1462330451074" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462330451074" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462330451074" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
+                <marker date="1462330452791" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462330452791" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462330452791" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createlogin.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="createlogin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.17152466">
+              <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
               <folding>
                 <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
                 <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
                 <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createuser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -283,6 +289,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -315,6 +322,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="" />
@@ -394,7 +404,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462330326736</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="5">
+      <created>1462330455431</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1462330455431</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -403,7 +419,6 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -411,6 +426,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -436,11 +452,49 @@
     <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <marker date="1462330323219" expanded="true" signature="3293:3436" placeholder="..." />
-            <marker date="1462330323219" expanded="true" signature="3338:3425" placeholder="..." />
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1462330452791" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
+            <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
+            <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,7 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -458,9 +511,9 @@
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462330451074" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462330451074" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462330451074" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462330452791" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
           </folding>
         </state>
       </provider>
@@ -469,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3733184">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -485,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,10 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.34304932">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462317808239" expanded="true" signature="1005:1053" placeholder="select * fro... users" />
-            <marker date="1462317808239" expanded="true" signature="1630:1723" placeholder="insert into `users`... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,21 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8026905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462317808346" expanded="true" signature="614:744" placeholder="insert into volunteers... " />
-            <marker date="1462317808346" expanded="true" signature="1854:1909" placeholder="select * fro... administrators" />
-            <marker date="1462317808346" expanded="true" signature="2323:2408" placeholder="select * fro... administrators" />
-            <marker date="1462317808346" expanded="true" signature="3044:3091" placeholder="select * fro... volunteers" />
-            <marker date="1462317808346" expanded="true" signature="3306:3406" placeholder="select * fro... submissions" />
-            <marker date="1462317808346" expanded="true" signature="3347:3405" placeholder="select vol_i... volunteers" />
-            <marker date="1462317808346" expanded="true" signature="3613:3934" placeholder="select quest... answers" />
-            <marker date="1462317808346" expanded="true" signature="3714:3856" placeholder="select submi... submissions" />
-            <marker date="1462317808346" expanded="true" signature="3797:3855" placeholder="select vol_i... volunteers" />
-            <marker date="1462317808346" expanded="true" signature="4125:4177" placeholder="delete from " />
-            <marker date="1462317808346" expanded="true" signature="4349:4403" placeholder="select * fro... volunteers" />
-            <marker date="1462317808346" expanded="true" signature="5305:5678" placeholder="update volun... " />
-            <marker date="1462317808346" expanded="true" signature="5787:6145" placeholder="update volun... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="29.423077">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,27 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90246636">
-          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
-            <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
-            <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4304934">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,30 +613,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6188341">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
-          <folding>
-            <marker date="1462330323219" expanded="true" signature="3293:3436" placeholder="..." />
-            <marker date="1462330323219" expanded="true" signature="3338:3425" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82847536">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462330451074" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462330451074" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462330451074" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462330452791" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462330452791" expanded="true" signature="915:1025" placeholder="INSERT INTO `bugs`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="245" column="66" selection-start-line="245" selection-start-column="66" selection-end-line="245" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BefriendAChildTestSurvey/Master/createlogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17152466">
+          <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
+          <folding>
+            <marker date="1462317808312" expanded="true" signature="1013:1100" placeholder="SELECT `vol_... volunteers" />
+            <marker date="1462317808312" expanded="true" signature="2016:2264" placeholder="INSERT INTO volunteers... " />
+            <marker date="1462317808312" expanded="true" signature="2297:2526" placeholder="INSERT INTO volunteers... " />
           </folding>
         </state>
       </provider>
