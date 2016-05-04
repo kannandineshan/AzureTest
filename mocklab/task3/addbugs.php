@@ -86,7 +86,7 @@ include("assets/PHP/PHPfunctions.php");
                     addbugsdetails();
 
                 }else{
-                    header("Location: addbugs.php");
+                    header("Location: index.php");
                 }
 
             ?>
