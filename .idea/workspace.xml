@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="5">
+    <list default="true" id="e5bda2fc-b1ac-48ba-98d7-2d17059c9e62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/addbugs.php" afterPath="$PROJECT_DIR$/mocklab/task3/addbugs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" afterPath="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
     </list>
     <ignored path="AzureTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="addbugs.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="addbugs.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84753364">
-              <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+            <state vertical-scroll-proportion="-14.692307">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
               <folding>
                 <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
                 <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
@@ -58,16 +58,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PHPfunctions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.423077">
-              <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.63789237">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1462326978920" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462326978920" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-                <marker date="1462326978920" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+                <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+                <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
               </folding>
             </state>
           </provider>
@@ -97,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/mocklab/task3/showbugs.php" />
         <option value="$PROJECT_DIR$/mocklab/task3/connection.php" />
-        <option value="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
         <option value="$PROJECT_DIR$/mocklab/task3/addbugs.php" />
+        <option value="$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php" />
       </list>
     </option>
   </component>
@@ -390,7 +390,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462327042092</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5">
+      <created>1462328395369</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1462328395369</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -454,9 +460,9 @@
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462326978920" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462326978920" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462326978920" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
           </folding>
         </state>
       </provider>
@@ -610,26 +616,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.423077">
-          <caret line="63" column="6" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="36" />
+        <state vertical-scroll-proportion="-14.692307">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
           <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1462326978920" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462326978920" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
-            <marker date="1462326978920" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
+            <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
+            <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mocklab/task3/addbugs.php">
+    <entry file="file://$PROJECT_DIR$/mocklab/task3/assets/PHP/PHPfunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84753364">
-          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.63789237">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
           <folding>
-            <marker date="1462328379494" expanded="true" signature="3295:3438" placeholder="..." />
-            <marker date="1462328379494" expanded="true" signature="3340:3427" placeholder="..." />
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1462328623427" expanded="true" signature="314:332" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462328623427" expanded="true" signature="528:581" placeholder="SELECT * FRO... bugs" />
+            <marker date="1462328623427" expanded="true" signature="915:1034" placeholder="INSERT INTO `bugs`... " />
           </folding>
         </state>
       </provider>

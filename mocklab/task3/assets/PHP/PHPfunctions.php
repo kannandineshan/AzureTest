@@ -51,7 +51,7 @@ function addbugsdetails(){
 
     $bugName = $_POST["bugname"];
     $bugSummary = $_POST["bugsummary"];
-    $bugCategory = $_POST["bugCategory"];
+    $bugCategory = $_POST["bugcategory"];
 
     $sql = "INSERT INTO `bugs` (`bugID`, `bugName`, `bugCategory`, `bugSummary`) VALUES ('$bugName', '$bugSummary', '$bugCategory')";
 
