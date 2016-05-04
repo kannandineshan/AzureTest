@@ -6,6 +6,9 @@
  * Time: 22:18
  */
 
+include("connection.php");
+
+
 function getheader(){
 
     $header = $_GET["header"];
@@ -16,8 +19,6 @@ function getheader(){
 
 function getbugsdetails(){
 
-    include("connection.php");
-
     $bugCategory = $_GET["bugCategory"];
 
 
@@ -25,22 +26,22 @@ function getbugsdetails(){
 
         $sql = "SELECT * FROM bugs";
 
-        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+        $db = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-        $result = mysqli_query($mysqli,$sql);
+        $result = mysqli_query($db,$sql);
 
-        $mysqli->close();
+        $db->close();
 
         return $result;
     }else{
 
         $sql = "SELECT * FROM bugs WHERE bugCategory = '$bugCategory'";
 
-        $mysqli = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
+        $db = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
-        $result = mysqli_query($mysqli,$sql);
+        $result = mysqli_query($db,$sql);
 
-        $mysqli->close();
+        $db->close();
 
         return $result;
     }
